@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Filter" representedClassName="Filter" syncable="YES">
+        <attribute name="chargingLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usageType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserSetting" representedClassName="UserSetting" syncable="YES">
+        <attribute name="notificationStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notifyBeforeDistance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notifyBeforeTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="searchNearbyDistance" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Filter" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="UserSetting" positionX="0" positionY="18" width="128" height="105"/>
+    </elements>
+</model>

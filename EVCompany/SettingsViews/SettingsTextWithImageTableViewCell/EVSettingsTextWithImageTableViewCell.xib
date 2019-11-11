@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EVSettingsTextWithImageTableViewCell" rowHeight="70" id="PNI-UC-hzo" userLabel="EVSettingsSwitchTableViewCell" customClass="EVSettingsTextWithImageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PNI-UC-hzo" id="k5w-dm-UAf">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon, Tue, Wed, Fri 3:00am-10:00" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXC-Vw-zBT">
+                        <rect key="frame" x="15" y="5" width="143" height="59.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right_new" translatesAutoresizingMaskIntoConstraints="NO" id="vC3-3p-ePy">
+                        <rect key="frame" x="309" y="24.5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="JhA-cM-brM"/>
+                            <constraint firstAttribute="width" constant="20" id="ygA-0x-9VK"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hXC-Vw-zBT" firstAttribute="top" secondItem="k5w-dm-UAf" secondAttribute="top" constant="5" id="EYe-ih-pMe"/>
+                    <constraint firstAttribute="bottom" secondItem="hXC-Vw-zBT" secondAttribute="bottom" constant="5" id="ThN-TB-N8b"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="vC3-3p-ePy" secondAttribute="trailing" constant="10" id="Yad-4O-hSO"/>
+                    <constraint firstItem="vC3-3p-ePy" firstAttribute="centerY" secondItem="hXC-Vw-zBT" secondAttribute="centerY" id="jMa-Me-Ln0"/>
+                    <constraint firstItem="hXC-Vw-zBT" firstAttribute="leading" secondItem="k5w-dm-UAf" secondAttribute="leading" constant="15" id="lXe-Fq-dou"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96070021390000004" green="0.96083813910000004" blue="0.96067017320000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="infoLabel" destination="hXC-Vw-zBT" id="90N-Ip-Ajd"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="-34"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="right_new" width="64" height="64"/>
+    </resources>
+</document>

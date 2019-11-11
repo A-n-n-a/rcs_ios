@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EVSettingsDateTableViewCell" id="Wcd-bj-NXF" customClass="EVSettingsDateTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wcd-bj-NXF" id="7kQ-gc-sR7">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65D-nx-QVj">
+                        <rect key="frame" x="10" y="4.5" width="152.5" height="33"/>
+                        <color key="backgroundColor" red="0.90186256170272827" green="0.90201735496520996" blue="0.90185278654098511" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3a-bk-s9d">
+                        <rect key="frame" x="192.5" y="4.5" width="152.5" height="33"/>
+                        <color key="backgroundColor" red="0.90186256170272827" green="0.90201735496520996" blue="0.90185278654098511" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jj-5F-sFQ">
+                        <rect key="frame" x="172.5" y="11.5" width="10" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="ywQ-uD-MBq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1Jj-5F-sFQ" firstAttribute="centerX" secondItem="7kQ-gc-sR7" secondAttribute="centerX" id="CFe-BQ-B4T"/>
+                    <constraint firstItem="N3a-bk-s9d" firstAttribute="centerY" secondItem="7kQ-gc-sR7" secondAttribute="centerY" id="FqR-Is-FF8"/>
+                    <constraint firstItem="1Jj-5F-sFQ" firstAttribute="centerY" secondItem="7kQ-gc-sR7" secondAttribute="centerY" id="RW5-s4-xtb"/>
+                    <constraint firstItem="1Jj-5F-sFQ" firstAttribute="leading" secondItem="65D-nx-QVj" secondAttribute="trailing" constant="10" id="Uva-pm-hLo"/>
+                    <constraint firstItem="65D-nx-QVj" firstAttribute="centerY" secondItem="7kQ-gc-sR7" secondAttribute="centerY" id="Xum-97-KgE"/>
+                    <constraint firstAttribute="trailing" secondItem="N3a-bk-s9d" secondAttribute="trailing" constant="10" id="ak6-TJ-VIP"/>
+                    <constraint firstItem="65D-nx-QVj" firstAttribute="leading" secondItem="7kQ-gc-sR7" secondAttribute="leading" constant="10" id="m56-pG-NkX"/>
+                    <constraint firstItem="N3a-bk-s9d" firstAttribute="leading" secondItem="1Jj-5F-sFQ" secondAttribute="trailing" constant="10" id="ob3-2c-23c"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96070021390000004" green="0.96083813910000004" blue="0.96067017320000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="finishDateButton" destination="N3a-bk-s9d" id="tl7-oA-nPk"/>
+                <outlet property="startDateButton" destination="65D-nx-QVj" id="4N6-Ks-1wC"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

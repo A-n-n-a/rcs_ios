@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bromsgrove town</key>
+	<array>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0598078000000006</string>
+			<key>longitude</key>
+			<string>52.326265</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0575762</string>
+			<key>longitude</key>
+			<string>52.3257404</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0552158</string>
+			<key>longitude</key>
+			<string>52.328337</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0527267000000005</string>
+			<key>longitude</key>
+			<string>52.330304000000005</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0483922999999997</string>
+			<key>longitude</key>
+			<string>52.3332936</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.047534</string>
+			<key>longitude</key>
+			<string>52.3344475</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0469761</string>
+			<key>longitude</key>
+			<string>52.3356275</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0486068999999993</string>
+			<key>longitude</key>
+			<string>52.342916900000006</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0476198000000005</string>
+			<key>longitude</key>
+			<string>52.3480816</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0309687</string>
+			<key>longitude</key>
+			<string>52.35293120000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0286083</string>
+			<key>longitude</key>
+			<string>52.3566532</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0374489</string>
+			<key>longitude</key>
+			<string>52.3552902</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0449591</string>
+			<key>longitude</key>
+			<string>52.3553689</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.049036</string>
+			<key>longitude</key>
+			<string>52.355631</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0528984000000006</string>
+			<key>longitude</key>
+			<string>52.355709600000004</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0602369</string>
+			<key>longitude</key>
+			<string>52.35484460000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0643139</string>
+			<key>longitude</key>
+			<string>52.3537437</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0695925</string>
+			<key>longitude</key>
+			<string>52.35232830000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0712662</string>
+			<key>longitude</key>
+			<string>52.3512535</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0744419</string>
+			<key>longitude</key>
+			<string>52.3475048</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0770597</string>
+			<key>longitude</key>
+			<string>52.3459581</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0800638000000005</string>
+			<key>longitude</key>
+			<string>52.3442015</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0823812</string>
+			<key>longitude</key>
+			<string>52.3418681</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0842266</string>
+			<key>longitude</key>
+			<string>52.3372795</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0806647</string>
+			<key>longitude</key>
+			<string>52.33625690000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0786905000000004</string>
+			<key>longitude</key>
+			<string>52.3358373</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0765877000000006</string>
+			<key>longitude</key>
+			<string>52.33539150000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.064271</string>
+			<key>longitude</key>
+			<string>52.3319562</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0598078000000006</string>
+			<key>longitude</key>
+			<string>52.326265</string>
+		</dict>
+	</array>
+	<key>dodford</key>
+	<array>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1068859000000004</string>
+			<key>longitude</key>
+			<string>52.3656424</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1131515999999997</string>
+			<key>longitude</key>
+			<string>52.3654066</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1201468</string>
+			<key>longitude</key>
+			<string>52.3639915</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1277856999999996</string>
+			<key>longitude</key>
+			<string>52.3538748</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1301460000000003</string>
+			<key>longitude</key>
+			<string>52.34784560000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1371411999999994</string>
+			<key>longitude</key>
+			<string>52.3236946</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1198893</string>
+			<key>longitude</key>
+			<string>52.3223306</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1004056999999996</string>
+			<key>longitude</key>
+			<string>52.3187631</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0852566</string>
+			<key>longitude</key>
+			<string>52.33463100000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0823812</string>
+			<key>longitude</key>
+			<string>52.3418681</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0800638000000005</string>
+			<key>longitude</key>
+			<string>52.3442015</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0744419</string>
+			<key>longitude</key>
+			<string>52.3475048</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0712662</string>
+			<key>longitude</key>
+			<string>52.3512535</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0695925</string>
+			<key>longitude</key>
+			<string>52.35232830000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0834112</string>
+			<key>longitude</key>
+			<string>52.3562862</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0913076</string>
+			<key>longitude</key>
+			<string>52.3572298</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1068859000000004</string>
+			<key>longitude</key>
+			<string>52.3656424</string>
+		</dict>
+	</array>
+	<key>Bournheath</key>
+	<array>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0641422</string>
+			<key>longitude</key>
+			<string>52.3538093</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0651937</string>
+			<key>longitude</key>
+			<string>52.3586713</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0676398000000002</string>
+			<key>longitude</key>
+			<string>52.35965420000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0699143</string>
+			<key>longitude</key>
+			<string>52.3618032</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0737123</string>
+			<key>longitude</key>
+			<string>52.3627336</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0745277</string>
+			<key>longitude</key>
+			<string>52.364332100000006</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0748281</string>
+			<key>longitude</key>
+			<string>52.3652362</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0770383</string>
+			<key>longitude</key>
+			<string>52.36794840000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0881534</string>
+			<key>longitude</key>
+			<string>52.36741119999999</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0998048999999996</string>
+			<key>longitude</key>
+			<string>52.3695075</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1049333</string>
+			<key>longitude</key>
+			<string>52.367005</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.1068859000000004</string>
+			<key>longitude</key>
+			<string>52.3656424</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0913076</string>
+			<key>longitude</key>
+			<string>52.3572298</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0830464</string>
+			<key>longitude</key>
+			<string>52.3562469</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0695925</string>
+			<key>longitude</key>
+			<string>52.35232830000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0641422</string>
+			<key>longitude</key>
+			<string>52.3538093</string>
+		</dict>
+	</array>
+	<key>Catshill</key>
+	<array>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0641422</string>
+			<key>longitude</key>
+			<string>52.3538093</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0602369</string>
+			<key>longitude</key>
+			<string>52.35484460000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0528984000000006</string>
+			<key>longitude</key>
+			<string>52.355709600000004</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0468044000000005</string>
+			<key>longitude</key>
+			<string>52.3554999</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0466757</string>
+			<key>longitude</key>
+			<string>52.3586713</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0462465</string>
+			<key>longitude</key>
+			<string>52.3618949</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0469760999999997</string>
+			<key>longitude</key>
+			<string>52.3652755</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0469332</string>
+			<key>longitude</key>
+			<string>52.366612</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0454311</string>
+			<key>longitude</key>
+			<string>52.3726124</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0452595</string>
+			<key>longitude</key>
+			<string>52.375284799999996</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0445728</string>
+			<key>longitude</key>
+			<string>52.3766471</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0509672</string>
+			<key>longitude</key>
+			<string>52.3825938</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0529842</string>
+			<key>longitude</key>
+			<string>52.38303909999999</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0563745000000004</string>
+			<key>longitude</key>
+			<string>52.38345820000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0614815</string>
+			<key>longitude</key>
+			<string>52.3835368</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0692062</string>
+			<key>longitude</key>
+			<string>52.3773021</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0653868000000006</string>
+			<key>longitude</key>
+			<string>52.3671361</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0670605</string>
+			<key>longitude</key>
+			<string>52.3653542</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0686483</string>
+			<key>longitude</key>
+			<string>52.360637</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0675325000000004</string>
+			<key>longitude</key>
+			<string>52.35982450000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0651937</string>
+			<key>longitude</key>
+			<string>52.3586713</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0641422</string>
+			<key>longitude</key>
+			<string>52.3538093</string>
+		</dict>
+	</array>
+	<key>Fairfield</key>
+	<array>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0998048999999996</string>
+			<key>longitude</key>
+			<string>52.3695075</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0881534</string>
+			<key>longitude</key>
+			<string>52.36741119999999</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0770383</string>
+			<key>longitude</key>
+			<string>52.36794840000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0750856</string>
+			<key>longitude</key>
+			<string>52.36559</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0745707</string>
+			<key>longitude</key>
+			<string>52.3647645</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0737123</string>
+			<key>longitude</key>
+			<string>52.3627336</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0699143</string>
+			<key>longitude</key>
+			<string>52.3618032</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0686483</string>
+			<key>longitude</key>
+			<string>52.360637</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0670605</string>
+			<key>longitude</key>
+			<string>52.3653542</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0653868000000006</string>
+			<key>longitude</key>
+			<string>52.3671361</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0692062</string>
+			<key>longitude</key>
+			<string>52.3773021</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0614815</string>
+			<key>longitude</key>
+			<string>52.3835368</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0812224999999995</string>
+			<key>longitude</key>
+			<string>52.3872038</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0998048999999996</string>
+			<key>longitude</key>
+			<string>52.3695075</string>
+		</dict>
+	</array>
+	<key>Burcot &amp; Blackwel</key>
+	<array>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0110988999999995</string>
+			<key>longitude</key>
+			<string>52.33093339999999</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-1.9820452</string>
+			<key>longitude</key>
+			<string>52.3364142</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-1.9824314</string>
+			<key>longitude</key>
+			<string>52.3400065</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-1.9993401</string>
+			<key>longitude</key>
+			<string>52.35272150000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0013142</string>
+			<key>longitude</key>
+			<string>52.35245930000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0090389</string>
+			<key>longitude</key>
+			<string>52.353036</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0139313</string>
+			<key>longitude</key>
+			<string>52.3541369</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0194674</string>
+			<key>longitude</key>
+			<string>52.3559193</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0247030000000006</string>
+			<key>longitude</key>
+			<string>52.3567056</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0286083</string>
+			<key>longitude</key>
+			<string>52.3566532</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0309687</string>
+			<key>longitude</key>
+			<string>52.35293120000001</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0476198000000005</string>
+			<key>longitude</key>
+			<string>52.3480816</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0483145</string>
+			<key>longitude</key>
+			<string>52.3429824</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0476949000000007</string>
+			<key>longitude</key>
+			<string>52.3401834</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0470727</string>
+			<key>longitude</key>
+			<string>52.3372598</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0333719</string>
+			<key>longitude</key>
+			<string>52.3316939</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0110988999999995</string>
+			<key>longitude</key>
+			<string>52.33093339999999</string>
+		</dict>
+	</array>
+	<key>Marlbrook</key>
+	<array>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0469331999999993</string>
+			<key>longitude</key>
+			<string>52.3658127</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0465683999999995</string>
+			<key>longitude</key>
+			<string>52.3633887</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>Lickey</key>
+	<array>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0194888</string>
+			<key>longitude</key>
+			<string>52.370149399999995</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0153046</string>
+			<key>longitude</key>
+			<string>52.36920609999999</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0112705</string>
+			<key>longitude</key>
+			<string>52.3703329</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0013141999999995</string>
+			<key>longitude</key>
+			<string>52.37601839999999</string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string>-2.0051336</string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>Barnt Green</key>
+	<string></string>
+	<key>Alvechurch</key>
+	<string></string>
+	<key>Hopwood</key>
+	<string></string>
+	<key>Cofton</key>
+	<string></string>
+	<key>Romsley </key>
+	<string></string>
+	<key>Romsley Hunnington</key>
+	<string></string>
+	<key>Belbroughton</key>
+	<string></string>
+	<key>Clent</key>
+	<string></string>
+	<key>Hayley Green</key>
+	<string></string>
+	<key>Hagley</key>
+	<string></string>
+	<key>Hagley West</key>
+	<string></string>
+	<key>Drayton</key>
+	<string></string>
+	<key>Blakedown</key>
+	<string></string>
+	<key>Chaddesley Corbett</key>
+	<string></string>
+	<key>Upton Warren</key>
+	<string></string>
+	<key>Charford</key>
+	<string></string>
+	<key>Astonfields</key>
+	<string></string>
+	<key>Stoke Prior</key>
+	<string></string>
+	<key>Stoke Pound</key>
+	<string></string>
+	<key>Tardebigge</key>
+	<string></string>
+	<key>Woodgate</key>
+	<string></string>
+	<key>Banks green</key>
+	<string></string>
+	<key>Lower Bentley</key>
+	<string></string>
+	<key>Upper Bentley</key>
+	<string></string>
+	<key>Webheath</key>
+	<string></string>
+	<key>Callow Hill</key>
+	<string></string>
+	<key>Headless Cross</key>
+	<string></string>
+	<key>Brockhill</key>
+	<string></string>
+	<key>Redditch</key>
+	<string></string>
+	<key>Southcrest</key>
+	<string></string>
+	<key>Woodrow</key>
+	<string></string>
+	<key>Matchborough</key>
+	<string></string>
+	<key>Winyates</key>
+	<string></string>
+	<key>Beoley</key>
+	<string></string>
+	<key>Rowney Green</key>
+	<string></string>
+	<key>Portway</key>
+	<string></string>
+	<key>Tanworth In Arden</key>
+	<string></string>
+	<key>Ullenhall</key>
+	<string></string>
+	<key>Henley In Arden</key>
+	<string></string>
+	<key>Studley</key>
+	<string></string>
+	<key>Astwood Bank</key>
+	<string></string>
+	<key>Alcester</key>
+	<string></string>
+	<key>Feckenham</key>
+	<string></string>
+	<key>Hanbury</key>
+	<string></string>
+	<key>Shenstone</key>
+	<string></string>
+	<key>Harvington</key>
+	<string></string>
+	<key>Elmbridge</key>
+	<string></string>
+	<key>Wychbold</key>
+	<string></string>
+	<key>Cutnall Green</key>
+	<string></string>
+	<key>Doverdale</key>
+	<string></string>
+	<key>Rashwood</key>
+	<string></string>
+	<key>Westland Droitwich</key>
+	<string></string>
+	<key>Droitwich central</key>
+	<string></string>
+	<key>Copcut Droitwich</key>
+	<string></string>
+	<key>Witton droitwich</key>
+	<string></string>
+	<key>Ombersley</key>
+	<string></string>
+	<key>Fernhill heath</key>
+	<string></string>
+	<key>Oddingley</key>
+	<string></string>
+	<key>Worcester</key>
+	<string></string>
+	<key>Pershore</key>
+	<string></string>
+	<key>Evesham</key>
+	<string></string>
+	<key>Malvern</key>
+	<string></string>
+	<key>Stratford Upon Avon</key>
+	<string></string>
+	<key>Warwick</key>
+	<string></string>
+	<key>Coverntry</key>
+	<string></string>
+	<key>Hartlebury</key>
+	<string></string>
+	<key>Kidderminster</key>
+	<string></string>
+	<key>Stourport</key>
+	<string></string>
+	<key>Polygon 77</key>
+	<string></string>
+	<key>Cookley</key>
+	<string></string>
+	<key>Kinver</key>
+	<string></string>
+	<key>Wollaston</key>
+	<string></string>
+	<key>Oldswinford</key>
+	<string></string>
+	<key>Norton</key>
+	<string></string>
+	<key>Pedmore</key>
+	<string></string>
+	<key>Stourbridge</key>
+	<string></string>
+	<key>Lye/ Wollescote</key>
+	<string></string>
+	<key>Amblecote</key>
+	<string></string>
+	<key>Quarry Bank</key>
+	<string></string>
+	<key>Cradley</key>
+	<string></string>
+	<key>Hasbury</key>
+	<string></string>
+	<key>Halesowen Central</key>
+	<string></string>
+	<key>Halesowen/ Lapal</key>
+	<string></string>
+	<key>Hurst Green</key>
+	<string></string>
+	<key>Old Hill</key>
+	<string></string>
+	<key>Cradley Heath</key>
+	<string></string>
+	<key>Blackheath</key>
+	<string></string>
+	<key>Rowley Regis</key>
+	<string></string>
+	<key>Primrose Hill</key>
+	<string></string>
+	<key>Netherton</key>
+	<string></string>
+	<key>Merryhill shopping centre</key>
+	<string></string>
+	<key>New item - 30 - 71</key>
+	<string></string>
+	<key>New item - 30 - 72</key>
+	<string></string>
+	<key>New item - 30 - 73</key>
+	<string></string>
+	<key>New item - 30 - 74</key>
+	<string></string>
+	<key>New item - 30 - 75</key>
+	<string></string>
+	<key>New item - 30 - 76</key>
+	<string></string>
+	<key>New item - 30 - 77</key>
+	<string></string>
+	<key>New item - 30 - 78</key>
+	<string></string>
+	<key>New item - 30 - 79</key>
+	<string></string>
+	<key>New item - 30 - 80</key>
+	<string></string>
+	<key>New item - 30 - 81</key>
+	<string></string>
+	<key>New item - 30 - 82</key>
+	<string></string>
+	<key>New item - 30 - 83</key>
+	<string></string>
+	<key>New item - 30 - 84</key>
+	<string></string>
+	<key>New item - 30 - 85</key>
+	<string></string>
+	<key>New item - 30 - 86</key>
+	<string></string>
+	<key>New item - 30 - 87</key>
+	<string></string>
+	<key>New item - 30 - 88</key>
+	<string></string>
+	<key>New item - 30 - 89</key>
+	<string></string>
+	<key>New item - 30 - 90</key>
+	<string></string>
+	<key>New item - 30 - 91</key>
+	<string></string>
+	<key>New item - 30 - 92</key>
+	<string></string>
+	<key>New item - 30 - 93</key>
+	<string></string>
+	<key>New item - 30 - 94</key>
+	<string></string>
+	<key>New item - 30 - 95</key>
+	<string></string>
+	<key>New item - 30 - 96</key>
+	<string></string>
+	<key>New item - 30 - 97</key>
+	<string></string>
+	<key>New item - 30 - 98</key>
+	<string></string>
+	<key>New item - 30 - 99</key>
+	<string></string>
+	<key>New item - 30 - 100</key>
+	<string></string>
+	<key>New item - 30 - 101</key>
+	<string></string>
+	<key>New item - 30 - 102</key>
+	<string></string>
+	<key>New item - 30 - 103</key>
+	<string></string>
+	<key>New item - 30 - 104</key>
+	<string></string>
+	<key>New item - 30 - 105</key>
+	<string></string>
+	<key>New item - 30 - 106</key>
+	<string></string>
+	<key>New item - 30 - 107</key>
+	<string></string>
+	<key>New item - 30 - 108</key>
+	<string></string>
+	<key>New item - 30 - 109</key>
+	<string></string>
+	<key>New item - 30 - 110</key>
+	<string></string>
+	<key>New item - 30 - 111</key>
+	<string></string>
+	<key>New item - 30 - 112</key>
+	<string></string>
+	<key>New item - 30 - 113</key>
+	<string></string>
+	<key>New item - 30 - 114</key>
+	<string></string>
+	<key>New item - 30 - 115</key>
+	<string></string>
+	<key>New item - 30 - 116</key>
+	<string></string>
+	<key>New item - 30 - 117</key>
+	<string></string>
+	<key>New item - 30 - 118</key>
+	<string></string>
+	<key>New item - 30 - 119</key>
+	<string></string>
+	<key>New item - 30 - 120</key>
+	<string></string>
+	<key>New item - 30 - 121</key>
+	<string></string>
+	<key>New item - 30 - 122</key>
+	<string></string>
+	<key>New item - 30 - 123</key>
+	<string></string>
+	<key>New item - 30 - 124</key>
+	<string></string>
+	<key>New item - 30 - 125</key>
+	<string></string>
+	<key>New item - 30 - 126</key>
+	<string></string>
+	<key>New item - 30 - 127</key>
+	<string></string>
+	<key>New item - 30 - 128</key>
+	<string></string>
+	<key>New item - 30 - 129</key>
+	<string></string>
+	<key>New item - 30 - 130</key>
+	<string></string>
+	<key>New item - 30 - 131</key>
+	<string></string>
+	<key>New item - 30 - 132</key>
+	<string></string>
+	<key>New item - 30 - 133</key>
+	<string></string>
+	<key>New item - 30 - 134</key>
+	<string></string>
+	<key>New item - 30 - 135</key>
+	<string></string>
+	<key>New item - 30 - 136</key>
+	<string></string>
+	<key>New item - 30 - 137</key>
+	<string></string>
+	<key>New item - 30 - 138</key>
+	<string></string>
+	<key>New item - 30 - 139</key>
+	<string></string>
+	<key>New item - 30 - 140</key>
+	<string></string>
+	<key>New item - 30 - 141</key>
+	<string></string>
+	<key>New item - 30 - 142</key>
+	<string></string>
+	<key>New item - 30 - 143</key>
+	<string></string>
+	<key>New item - 30 - 144</key>
+	<string></string>
+	<key>New item - 30 - 145</key>
+	<string></string>
+	<key>New item - 30 - 146</key>
+	<string></string>
+	<key>New item - 30 - 147</key>
+	<string></string>
+	<key>New item - 30 - 148</key>
+	<string></string>
+	<key>New item - 30 - 149</key>
+	<string></string>
+	<key>New item - 30 - 150</key>
+	<string></string>
+	<key>New item - 30 - 151</key>
+	<string></string>
+	<key>New item - 30 - 152</key>
+	<string></string>
+	<key>New item - 30 - 153</key>
+	<string></string>
+	<key>New item - 30 - 154</key>
+	<string></string>
+	<key>New item - 30 - 155</key>
+	<string></string>
+	<key>New item - 30 - 156</key>
+	<string></string>
+	<key>New item - 30 - 157</key>
+	<string></string>
+	<key>New item - 30 - 158</key>
+	<string></string>
+	<key>New item - 30 - 159</key>
+	<string></string>
+	<key>New item - 30 - 160</key>
+	<string></string>
+	<key>New item - 30 - 161</key>
+	<string></string>
+	<key>New item - 30 - 162</key>
+	<string></string>
+	<key>New item - 30 - 163</key>
+	<string></string>
+	<key>New item - 30 - 164</key>
+	<string></string>
+	<key>New item - 30 - 165</key>
+	<string></string>
+	<key>New item - 30 - 166</key>
+	<string></string>
+	<key>New item - 30 - 167</key>
+	<string></string>
+	<key>New item - 30 - 168</key>
+	<string></string>
+	<key>New item - 30 - 169</key>
+	<string></string>
+	<key>New item - 30 - 170</key>
+	<string></string>
+	<key>New item - 30 - 171</key>
+	<string></string>
+	<key>New item - 30 - 172</key>
+	<string></string>
+	<key>New item - 30 - 173</key>
+	<string></string>
+	<key>New item - 30 - 174</key>
+	<string></string>
+	<key>New item - 30 - 175</key>
+	<string></string>
+	<key>New item - 30 - 176</key>
+	<string></string>
+	<key>New item - 30 - 177</key>
+	<string></string>
+	<key>New item - 30 - 178</key>
+	<string></string>
+	<key>New item - 30 - 179</key>
+	<string></string>
+	<key>New item - 30 - 180</key>
+	<string></string>
+	<key>New item - 30 - 181</key>
+	<string></string>
+	<key>New item - 30 - 182</key>
+	<string></string>
+	<key>New item - 30 - 183</key>
+	<string></string>
+	<key>New item - 30 - 184</key>
+	<string></string>
+	<key>New item - 30 - 185</key>
+	<string></string>
+	<key>New item - 30 - 186</key>
+	<string></string>
+	<key>New item - 30 - 187</key>
+	<string></string>
+	<key>New item - 30 - 188</key>
+	<string></string>
+	<key>New item - 30 - 189</key>
+	<string></string>
+	<key>New item - 30 - 190</key>
+	<string></string>
+	<key>New item - 30 - 191</key>
+	<string></string>
+	<key>New item - 30 - 192</key>
+	<string></string>
+	<key>New item - 30 - 193</key>
+	<string></string>
+	<key>New item - 30 - 194</key>
+	<string></string>
+	<key>New item - 30 - 195</key>
+	<string></string>
+	<key>New item - 30 - 196</key>
+	<string></string>
+	<key>New item - 30 - 197</key>
+	<string></string>
+	<key>New item - 30 - 198</key>
+	<string></string>
+	<key>New item - 30 - 199</key>
+	<string></string>
+	<key>New item - 30 - 200</key>
+	<string></string>
+	<key>New item - 30 - 201</key>
+	<string></string>
+	<key>New item - 30 - 202</key>
+	<string></string>
+	<key>New item - 30 - 203</key>
+	<string></string>
+	<key>New item - 30 - 204</key>
+	<string></string>
+	<key>New item - 30 - 205</key>
+	<string></string>
+	<key>New item - 30 - 206</key>
+	<string></string>
+	<key>New item - 30 - 207</key>
+	<string></string>
+	<key>New item - 30 - 208</key>
+	<string></string>
+	<key>New item - 30 - 209</key>
+	<string></string>
+	<key>New item - 30 - 210</key>
+	<string></string>
+	<key>New item - 30 - 211</key>
+	<string></string>
+	<key>New item - 30 - 212</key>
+	<string></string>
+	<key>New item - 30 - 213</key>
+	<string></string>
+	<key>New item - 30 - 214</key>
+	<string></string>
+	<key>New item - 30 - 215</key>
+	<string></string>
+	<key>New item - 30 - 216</key>
+	<string></string>
+	<key>New item - 30 - 217</key>
+	<string></string>
+	<key>New item - 30 - 218</key>
+	<string></string>
+	<key>New item - 30 - 219</key>
+	<string></string>
+	<key>New item - 30 - 220</key>
+	<string></string>
+	<key>New item - 30 - 221</key>
+	<string></string>
+	<key>New item - 30 - 222</key>
+	<string></string>
+	<key>New item - 30 - 223</key>
+	<string></string>
+	<key>New item - 30 - 224</key>
+	<string></string>
+	<key>New item - 30 - 225</key>
+	<string></string>
+	<key>New item - 30 - 226</key>
+	<string></string>
+	<key>New item - 30 - 227</key>
+	<string></string>
+	<key>New item - 30 - 228</key>
+	<string></string>
+	<key>New item - 30 - 229</key>
+	<string></string>
+	<key>New item - 30 - 230</key>
+	<string></string>
+	<key>New item - 30 - 231</key>
+	<string></string>
+	<key>New item - 30 - 232</key>
+	<string></string>
+	<key>New item - 30 - 233</key>
+	<string></string>
+	<key>New item - 30 - 234</key>
+	<string></string>
+	<key>New item - 30 - 235</key>
+	<string></string>
+	<key>New item - 31</key>
+	<string></string>
+	<key>New item - 2</key>
+	<dict>
+		<key>latitude</key>
+		<string>-2.0469331999999993</string>
+		<key>longitude</key>
+		<string>52.3658127</string>
+	</dict>
+</dict>
+</plist>

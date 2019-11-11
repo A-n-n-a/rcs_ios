@@ -1,0 +1,2384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2513639E1F9F91F200979948 /* EVMyChargerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2513639D1F9F91F200979948 /* EVMyChargerProgressView.m */; };
+		253CAF211F9E877C007130FB /* EVMyChargersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CAF201F9E877C007130FB /* EVMyChargersListViewController.m */; };
+		253CAF2A1F9E8955007130FB /* EVMyChargerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CAF291F9E8955007130FB /* EVMyChargerHeaderView.m */; };
+		253CAF2D1F9E896A007130FB /* EVMyChargerFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CAF2C1F9E896A007130FB /* EVMyChargerFooterView.m */; };
+		253CAF2F1F9E897E007130FB /* EVMyChargerFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 253CAF2E1F9E897E007130FB /* EVMyChargerFooterView.xib */; };
+		253CAF311F9E8991007130FB /* EVMyChargerHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 253CAF301F9E8991007130FB /* EVMyChargerHeaderView.xib */; };
+		253CAF351F9E89B8007130FB /* EVMyChargerDelayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CAF331F9E89B8007130FB /* EVMyChargerDelayTableViewCell.m */; };
+		253CAF361F9E89B8007130FB /* EVMyChargerDelayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 253CAF341F9E89B8007130FB /* EVMyChargerDelayTableViewCell.xib */; };
+		253CAF3A1F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CAF381F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.m */; };
+		253CAF3B1F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 253CAF391F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.xib */; };
+		253CAF3F1F9E89E8007130FB /* EVMyChargerStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CAF3D1F9E89E8007130FB /* EVMyChargerStatusTableViewCell.m */; };
+		253CAF401F9E89E8007130FB /* EVMyChargerStatusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 253CAF3E1F9E89E8007130FB /* EVMyChargerStatusTableViewCell.xib */; };
+		2546C90B1FBA18A5001C4337 /* EVCharger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2546C90A1FBA18A5001C4337 /* EVCharger.m */; };
+		2546C9101FBA65B0001C4337 /* EVChargersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2546C90F1FBA65B0001C4337 /* EVChargersManager.m */; };
+		2546C9141FBA7E5B001C4337 /* EVSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2546C9131FBA7E5B001C4337 /* EVSchedule.m */; };
+		254A41C21FB4A5C400072AFC /* NSMutableData+ReadWrite.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A41C11FB4A5C400072AFC /* NSMutableData+ReadWrite.m */; };
+		254A41CB1FB5990000072AFC /* EVBLEDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A41C91FB5990000072AFC /* EVBLEDataReader.m */; };
+		254A41D21FB59FC000072AFC /* EVBLEConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A41D11FB59FC000072AFC /* EVBLEConstants.m */; };
+		256D0BFF1FE9A7F100EB6BAD /* EVSystemInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256D0BFE1FE9A7F100EB6BAD /* EVSystemInformationViewController.m */; };
+		2580037B1FC46A0A00A14739 /* libblufiSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 258003281FC46A0A00A14739 /* libblufiSDK.a */; };
+		2580037C1FC46A0A00A14739 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2580032B1FC46A0A00A14739 /* libcrypto.a */; };
+		2580037D1FC46A0A00A14739 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2580032D1FC46A0A00A14739 /* LICENSE */; };
+		2580037E1FC46A0A00A14739 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2580037A1FC46A0A00A14739 /* libssl.a */; };
+		258003821FC4B96B00A14739 /* EVBLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 258003811FC4B96B00A14739 /* EVBLEDevice.m */; };
+		25DF5C121FE810E1002BCB20 /* EVSettingsStandartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C101FE810E1002BCB20 /* EVSettingsStandartTableViewCell.m */; };
+		25DF5C131FE810E1002BCB20 /* EVSettingsStandartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5C111FE810E1002BCB20 /* EVSettingsStandartTableViewCell.xib */; };
+		25DF5C181FE81259002BCB20 /* EVSettingsDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C161FE81259002BCB20 /* EVSettingsDateTableViewCell.m */; };
+		25DF5C191FE81259002BCB20 /* EVSettingsDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5C171FE81259002BCB20 /* EVSettingsDateTableViewCell.xib */; };
+		25DF5C1B1FE81346002BCB20 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5C1A1FE81346002BCB20 /* Settings.storyboard */; };
+		25DF5C201FE81457002BCB20 /* EVUsageReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C1F1FE81457002BCB20 /* EVUsageReportViewController.m */; };
+		25DF5C241FE81580002BCB20 /* EVSettingWithImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C221FE81580002BCB20 /* EVSettingWithImageTableViewCell.m */; };
+		25DF5C251FE81580002BCB20 /* EVSettingWithImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5C231FE81580002BCB20 /* EVSettingWithImageTableViewCell.xib */; };
+		25DF5C2D1FE846DE002BCB20 /* EVCustomChargingScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C2C1FE846DE002BCB20 /* EVCustomChargingScheduleViewController.m */; };
+		25DF5C311FE84951002BCB20 /* EVSettingsSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C2F1FE84951002BCB20 /* EVSettingsSwitchTableViewCell.m */; };
+		25DF5C321FE84951002BCB20 /* EVSettingsSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5C301FE84951002BCB20 /* EVSettingsSwitchTableViewCell.xib */; };
+		25DF5C3A1FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C381FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.m */; };
+		25DF5C3B1FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5C391FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.xib */; };
+		25DF5C3F1FE86881002BCB20 /* EVPowerSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C3E1FE86881002BCB20 /* EVPowerSettingsViewController.m */; };
+		25DF5C441FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C421FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.m */; };
+		25DF5C451FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5C431FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.xib */; };
+		25DF5C491FE883B6002BCB20 /* EVScheduleEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C481FE883B6002BCB20 /* EVScheduleEditorViewController.m */; };
+		25DF5C4D1FE9367F002BCB20 /* EVEnergyProviderSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C4C1FE9367F002BCB20 /* EVEnergyProviderSetupViewController.m */; };
+		25DF5C511FE940C1002BCB20 /* EVNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C501FE940C1002BCB20 /* EVNotificationsViewController.m */; };
+		25DF5C561FE94E71002BCB20 /* EVSettingsButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5C541FE94E71002BCB20 /* EVSettingsButtonTableViewCell.m */; };
+		25DF5C571FE94E71002BCB20 /* EVSettingsButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5C551FE94E71002BCB20 /* EVSettingsButtonTableViewCell.xib */; };
+		4D091A1018E2881C001582EB /* EVLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A0F18E2881C001582EB /* EVLoginViewController.m */; };
+		4D091A1218E288DE001582EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D091A1118E288DE001582EB /* Main.storyboard */; };
+		4D091A1618E2BE24001582EB /* EVProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A1518E2BE24001582EB /* EVProfileViewController.m */; };
+		4D091A3118E2E81A001582EB /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A1C18E2E81A001582EB /* MKAnnotationView+WebCache.m */; };
+		4D091A3218E2E81A001582EB /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A1E18E2E81A001582EB /* SDImageCache.m */; };
+		4D091A3318E2E81A001582EB /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A2218E2E81A001582EB /* SDWebImageDecoder.m */; };
+		4D091A3418E2E81A001582EB /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A2418E2E81A001582EB /* SDWebImageDownloader.m */; };
+		4D091A3518E2E81A001582EB /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A2718E2E81A001582EB /* SDWebImageManager.m */; };
+		4D091A3618E2E81A001582EB /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A2A18E2E81A001582EB /* SDWebImagePrefetcher.m */; };
+		4D091A3718E2E81A001582EB /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A2C18E2E81A001582EB /* UIButton+WebCache.m */; };
+		4D091A3818E2E81A001582EB /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A2E18E2E81A001582EB /* UIColor+ColorWithHex.m */; };
+		4D091A3918E2E81A001582EB /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A3018E2E81A001582EB /* UIImageView+WebCache.m */; };
+		4D091A3C18E2E860001582EB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D091A3B18E2E860001582EB /* MBProgressHUD.m */; };
+		4D0BEE3618E013910043FC1C /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BEE3218E013910043FC1C /* ECSlidingViewController.m */; };
+		4D0BEE3718E013910043FC1C /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BEE3418E013910043FC1C /* UIImage+ImageWithUIView.m */; };
+		4D317ABC18CF0780000A9386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D317ABB18CF0780000A9386 /* Foundation.framework */; };
+		4D317ABE18CF0780000A9386 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D317ABD18CF0780000A9386 /* CoreGraphics.framework */; };
+		4D317AC018CF0780000A9386 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D317ABF18CF0780000A9386 /* UIKit.framework */; };
+		4D317AC218CF0780000A9386 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D317AC118CF0780000A9386 /* CoreData.framework */; };
+		4D317AC818CF0780000A9386 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D317AC618CF0780000A9386 /* InfoPlist.strings */; };
+		4D317ACA18CF0780000A9386 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D317AC918CF0780000A9386 /* main.m */; };
+		4D317ACE18CF0780000A9386 /* EVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D317ACD18CF0780000A9386 /* EVAppDelegate.m */; };
+		4D317AD118CF0780000A9386 /* EVCompany.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D317ACF18CF0780000A9386 /* EVCompany.xcdatamodeld */; };
+		4D317ADB18CF0780000A9386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D317ABB18CF0780000A9386 /* Foundation.framework */; };
+		4D317ADC18CF0780000A9386 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D317ABF18CF0780000A9386 /* UIKit.framework */; };
+		4D317ADD18CF0780000A9386 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D317AC118CF0780000A9386 /* CoreData.framework */; };
+		4D317AE518CF0780000A9386 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D317AE318CF0780000A9386 /* InfoPlist.strings */; };
+		4D317AE718CF0780000A9386 /* EVCompanyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D317AE618CF0780000A9386 /* EVCompanyTests.m */; };
+		4D317AF518CF2396000A9386 /* EVMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D317AF418CF2396000A9386 /* EVMapViewController.m */; };
+		4D317AF918CF25F4000A9386 /* EVStations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D317AF818CF25F4000A9386 /* EVStations.m */; };
+		4D317AFC18CF3242000A9386 /* EVWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D317AFB18CF3242000A9386 /* EVWebService.m */; };
+		4D32FDAE18DBEEAF0070B99E /* EVSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D32FDAD18DBEEAF0070B99E /* EVSearchViewController.m */; };
+		4D32FDB218DBFB690070B99E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D32FDB118DBFB690070B99E /* Images.xcassets */; };
+		4D32FDB518DC2D4D0070B99E /* EVSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D32FDB418DC2D4A0070B99E /* EVSearchCell.m */; };
+		4D4D9D1918D02C2300630AE9 /* NSMutableData+PostDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D1818D02C2300630AE9 /* NSMutableData+PostDataAdditions.m */; };
+		4D4D9D2E18D0511900630AE9 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D1C18D0511900630AE9 /* AFHTTPClient.m */; };
+		4D4D9D2F18D0511900630AE9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D1E18D0511900630AE9 /* AFHTTPRequestOperation.m */; };
+		4D4D9D3018D0511900630AE9 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D2018D0511900630AE9 /* AFImageRequestOperation.m */; };
+		4D4D9D3118D0511900630AE9 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D2218D0511900630AE9 /* AFJSONRequestOperation.m */; };
+		4D4D9D3218D0511900630AE9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D2418D0511900630AE9 /* AFNetworkActivityIndicatorManager.m */; };
+		4D4D9D3318D0511900630AE9 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D2718D0511900630AE9 /* AFPropertyListRequestOperation.m */; };
+		4D4D9D3418D0511900630AE9 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D2918D0511900630AE9 /* AFURLConnectionOperation.m */; };
+		4D4D9D3518D0511900630AE9 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D2B18D0511900630AE9 /* AFXMLRequestOperation.m */; };
+		4D4D9D3618D0511900630AE9 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D2D18D0511900630AE9 /* UIImageView+AFNetworking.m */; };
+		4D4D9D3918D0518300630AE9 /* EVClientApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D3818D0518300630AE9 /* EVClientApi.m */; };
+		4D4D9D3B18D05B2A00630AE9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4D9D3A18D05B2A00630AE9 /* MapKit.framework */; };
+		4D4D9D3E18D05E0C00630AE9 /* EVMapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D3D18D05E0C00630AE9 /* EVMapPin.m */; };
+		4D4D9D4418D066DB00630AE9 /* GeoCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D4118D066DB00630AE9 /* GeoCoder.m */; };
+		4D4D9D4518D066DB00630AE9 /* NSString+NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D4318D066DB00630AE9 /* NSString+NSStringAdditions.m */; };
+		4D4D9D4818D0736000630AE9 /* EVMapTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D9D4718D0736000630AE9 /* EVMapTableViewCell.m */; };
+		4D4DD73218F516620037BC63 /* KGModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4DD73118F516620037BC63 /* KGModal.m */; };
+		4D4DD73518F532470037BC63 /* EVStationListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4DD73418F532470037BC63 /* EVStationListingViewController.m */; };
+		4D4F9E5118F7AE4B00E7F6D5 /* EVMapDetailsRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F9E5018F7AE4B00E7F6D5 /* EVMapDetailsRouteViewController.m */; };
+		4D4F9E5418F7AEBB00E7F6D5 /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F9E5318F7AEBB00E7F6D5 /* AddressAnnotation.m */; };
+		4D4F9E5718F7AEDB00E7F6D5 /* DirectionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F9E5618F7AEDB00E7F6D5 /* DirectionParser.m */; };
+		4D5246B019E5489400D93A93 /* zones.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D5246AF19E5489400D93A93 /* zones.plist */; };
+		4D55921518D826C7004AF51A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D55921418D826C7004AF51A /* QuartzCore.framework */; };
+		4D6A070318F01039003AFA75 /* EVImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A070218F01039003AFA75 /* EVImageCell.m */; };
+		4D83F39F18D1B6270018CCD9 /* EVRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D83F39E18D1B6270018CCD9 /* EVRouteViewController.m */; };
+		4D85FB9618EEC6E400E7B362 /* TMDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D85FB9518EEC6E400E7B362 /* TMDropDown.m */; };
+		4D9A74BE18D1A5D70036B134 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9A74B618D1A5D70036B134 /* MapView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D9A74BF18D1A5D70036B134 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9A74B818D1A5D70036B134 /* Place.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D9A74C018D1A5D70036B134 /* PlaceMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9A74BA18D1A5D70036B134 /* PlaceMark.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D9A74C118D1A5D70036B134 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9A74BD18D1A5D70036B134 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D9E2BDD18D8653B00248F38 /* EVMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E2BDC18D8653B00248F38 /* EVMenuViewController.m */; };
+		4DB8CEE318E178B900BDF02B /* EVFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB8CEE218E178B900BDF02B /* EVFilterViewController.m */; };
+		4DB8CEE818E1880C00BDF02B /* EVUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB8CEE718E1880C00BDF02B /* EVUser.m */; };
+		4DB8CEED18E19DDE00BDF02B /* EVSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB8CEEC18E19DDE00BDF02B /* EVSignUpViewController.m */; };
+		4DD9CD0118EBD1E700B46D5E /* EVAddVehicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9CD0018EBD1E700B46D5E /* EVAddVehicleViewController.m */; };
+		4DD9CD0418EBDFB600B46D5E /* EVSelectCarModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9CD0318EBDFB600B46D5E /* EVSelectCarModelViewController.m */; };
+		4DD9CD0718EBF0CD00B46D5E /* EVTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9CD0618EBF0CD00B46D5E /* EVTextField.m */; };
+		4DE303A618E1466C0044BB91 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE303A518E1466C0044BB91 /* AudioToolbox.framework */; };
+		4DE303A818E146750044BB91 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE303A718E146750044BB91 /* AVFoundation.framework */; };
+		4DE303AA18E146860044BB91 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE303A918E146860044BB91 /* CoreTelephony.framework */; };
+		4DE303AC18E1468E0044BB91 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE303AB18E1468E0044BB91 /* MessageUI.framework */; };
+		4DE303B018E146A60044BB91 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE303AF18E146A60044BB91 /* SystemConfiguration.framework */; };
+		4DE8A522192478BA0018D0A7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8A521192478BA0018D0A7 /* EventKit.framework */; };
+		4DE8A524192478C40018D0A7 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8A523192478C40018D0A7 /* EventKitUI.framework */; };
+		4DE8A526192478D70018D0A7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8A525192478D70018D0A7 /* MediaPlayer.framework */; };
+		4DE8A528192478EF0018D0A7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8A527192478EF0018D0A7 /* Security.framework */; };
+		4DE8A52A192478FC0018D0A7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8A529192478FC0018D0A7 /* Social.framework */; };
+		4DE8A52C1924791D0018D0A7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8A52B1924791D0018D0A7 /* libsqlite3.0.dylib */; };
+		4DE8A52E192479270018D0A7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8A52D192479260018D0A7 /* libz.dylib */; };
+		4DEEF4D118EA9FC800817146 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF4D018EA9FC800817146 /* Filter.m */; };
+		4DEEF4D518EAAC7100817146 /* EVAddStationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF4D418EAAC7100817146 /* EVAddStationTableViewController.m */; };
+		4DEEF4DA18EAACB400817146 /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF4D718EAACB400817146 /* TextFieldCell.m */; };
+		4DEEF4DB18EAACB400817146 /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEEF4D918EAACB400817146 /* ButtonCell.m */; };
+		4DF38BE918D970260005D6E9 /* EVSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF38BE818D970260005D6E9 /* EVSlidingViewController.m */; };
+		4DF38BEC18D977090005D6E9 /* EVDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF38BEB18D977090005D6E9 /* EVDetailsViewController.m */; };
+		4DF38BEF18D97E480005D6E9 /* EVDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF38BEE18D97E480005D6E9 /* EVDetailCell.m */; };
+		4DFDF9AB18E69FE3004A8687 /* EVAddStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDF9AA18E69FE3004A8687 /* EVAddStationViewController.m */; };
+		4DFF9EE718E5762C00B19D39 /* EVFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF9EE618E5762C00B19D39 /* EVFavoritesViewController.m */; };
+		4DFF9EEB18E5A1C800B19D39 /* EVLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF9EEA18E5A1C800B19D39 /* EVLikeViewController.m */; };
+		79176F7A1DED1F8B004C6026 /* EVModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 79176F791DED1F8B004C6026 /* EVModal.m */; };
+		9510E1441FB5CFFF0012D151 /* EVChargerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9510E1431FB5CFFF0012D151 /* EVChargerCell.m */; };
+		9510E1471FB5D2350012D151 /* EVBlufiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9510E1461FB5D2350012D151 /* EVBlufiManager.m */; };
+		951C393A1FDFBC36002F44EC /* EVSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951C39391FDFBC36002F44EC /* EVSettingsViewController.m */; };
+		954153791F97C5E800F20EDA /* EVAddChargerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954153781F97C5E800F20EDA /* EVAddChargerViewController.m */; };
+		9548EA231FC8027C00A6DBDE /* EVAes128EncryptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9548EA181FC7005600A6DBDE /* EVAes128EncryptionManager.m */; };
+		95709C931F8EA81100689CBB /* EVMyChargerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95709C921F8EA81100689CBB /* EVMyChargerViewController.m */; };
+		95709C981F8F5A9200689CBB /* EVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95709C971F8F5A9200689CBB /* EVViewController.m */; };
+		95709C9A1F8F5FC200689CBB /* ConstantStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 95709C991F8F5FC200689CBB /* ConstantStrings.m */; };
+		95709CA01F8F6DA900689CBB /* EVConnectWifiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95709C9F1F8F6DA900689CBB /* EVConnectWifiViewController.m */; };
+		95709CA21F8F6DC700689CBB /* EVConnectBluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95709CA11F8F6DC700689CBB /* EVConnectBluetoothViewController.m */; };
+		95709CA61F91505900689CBB /* EVBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95709CA51F91505900689CBB /* EVBluetoothManager.m */; };
+		9577D0ED1FE1B1F8005219E2 /* EVUserCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 9551A9DF1FE12F3400A2C3AB /* EVUserCell.h */; };
+		9577D0EE1FE1B1F8005219E2 /* EVUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9551A9E01FE12F3400A2C3AB /* EVUserCell.m */; };
+		9577D0EF1FE1B1F8005219E2 /* EVUserListViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 9551A9E11FE12F3400A2C3AB /* EVUserListViewController.h */; };
+		9577D0F01FE1B1F8005219E2 /* EVUserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9551A9E21FE12F3400A2C3AB /* EVUserListViewController.m */; };
+		95DC67AA1FCC46DB00B001B2 /* NSData+AES128Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9548EA1B1FC7006400A6DBDE /* NSData+AES128Encryption.m */; };
+		95DC67AB1FCC473300B001B2 /* NSString+AES128Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9548EA1E1FC7007000A6DBDE /* NSString+AES128Encryption.m */; };
+		95FFF6CC1F9F6A2A00720E38 /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF6BF1F9F696100720E38 /* BabyCentralManager.m */; };
+		95FFF6CE1F9F6A2A00720E38 /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF6C41F9F696200720E38 /* BabyPeripheralManager.m */; };
+		95FFF6CF1F9F6A2A00720E38 /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF6B91F9F696100720E38 /* BabyRhythm.m */; };
+		95FFF6D01F9F6A2A00720E38 /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF6BA1F9F696100720E38 /* BabySpeaker.m */; };
+		95FFF6D11F9F6A2A00720E38 /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF6C21F9F696100720E38 /* BabyToy.m */; };
+		95FFF6D81F9FD64400720E38 /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF6D41F9FD64300720E38 /* BabyCallback.m */; };
+		95FFF6D91F9FD64400720E38 /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF6D51F9FD64300720E38 /* BabyOptions.m */; };
+		95FFF6DA1F9FD64400720E38 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFF6D71F9FD64300720E38 /* BabyBluetooth.m */; };
+		DC130B931BEB89DE00E9C521 /* UserSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = DC130B921BEB89DE00E9C521 /* UserSetting.m */; };
+		DC43E3AA1C7F332300D0FEED /* EVReservationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC43E3A91C7F332300D0FEED /* EVReservationListViewController.m */; };
+		DC57FB291BC249FC00F781B3 /* EVOCPPWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC57FB281BC249FC00F781B3 /* EVOCPPWebService.m */; };
+		DC79C7FC1CCF6F8E00CECF20 /* EVLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC79C7FB1CCF6F8E00CECF20 /* EVLogViewController.m */; };
+		DC8F7A8E1CD38F6D00585636 /* EVTripToStationRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F7A8D1CD38F6D00585636 /* EVTripToStationRouteViewController.m */; };
+		DC99DB321C101787000CDF63 /* EVDirectionService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC99DB311C101787000CDF63 /* EVDirectionService.m */; };
+		DC99DB351C1024A1000CDF63 /* EVDirectionClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DC99DB341C1024A1000CDF63 /* EVDirectionClient.m */; };
+		DC9A879D1BFE17C2004FA84C /* EVMargingTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A879C1BFE17C2004FA84C /* EVMargingTextfield.m */; };
+		DC9AEA501BD610D500EEE48C /* EVListReservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9AEA4F1BD610D500EEE48C /* EVListReservationViewController.m */; };
+		DC9AEA531BD6624000EEE48C /* EVcurrentReservation.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9AEA521BD6624000EEE48C /* EVcurrentReservation.m */; };
+		DC9D39351BB2A316001599B1 /* EVReservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9D39341BB2A316001599B1 /* EVReservationViewController.m */; };
+		DCA9DAF21C08678E00C728D7 /* EVOCPPDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA9DAF11C08678E00C728D7 /* EVOCPPDetailsViewController.m */; };
+		DCB109B71B99C318001D7611 /* EVTripPlanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB109B61B99C318001D7611 /* EVTripPlanTableViewController.m */; };
+		DCB109BB1B9D835F001D7611 /* EVUserSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB109BA1B9D835F001D7611 /* EVUserSettingTableViewController.m */; };
+		DCBF157A1CAA46100043B76A /* EVTripPlanRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBF15791CAA46100043B76A /* EVTripPlanRouteViewController.m */; };
+		DCC45C0C1C804C65007601B4 /* EVAllReservationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC45C0B1C804C65007601B4 /* EVAllReservationTableViewController.m */; };
+		DCC45C0F1C804E8E007601B4 /* EVOwnReservationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC45C0E1C804E8E007601B4 /* EVOwnReservationTableViewController.m */; };
+		DCD478C61BBE6538002253D4 /* EVOCPPClientApi.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD478C51BBE6538002253D4 /* EVOCPPClientApi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D317ADE18CF0780000A9386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D317AB018CF0780000A9386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D317AB718CF0780000A9386;
+			remoteInfo = EVCompany;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2513639C1F9F91F200979948 /* EVMyChargerProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVMyChargerProgressView.h; sourceTree = "<group>"; };
+		2513639D1F9F91F200979948 /* EVMyChargerProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVMyChargerProgressView.m; sourceTree = "<group>"; };
+		253CAF1F1F9E877C007130FB /* EVMyChargersListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVMyChargersListViewController.h; sourceTree = "<group>"; };
+		253CAF201F9E877C007130FB /* EVMyChargersListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVMyChargersListViewController.m; sourceTree = "<group>"; };
+		253CAF281F9E8955007130FB /* EVMyChargerHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVMyChargerHeaderView.h; sourceTree = "<group>"; };
+		253CAF291F9E8955007130FB /* EVMyChargerHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVMyChargerHeaderView.m; sourceTree = "<group>"; };
+		253CAF2B1F9E896A007130FB /* EVMyChargerFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVMyChargerFooterView.h; sourceTree = "<group>"; };
+		253CAF2C1F9E896A007130FB /* EVMyChargerFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVMyChargerFooterView.m; sourceTree = "<group>"; };
+		253CAF2E1F9E897E007130FB /* EVMyChargerFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVMyChargerFooterView.xib; sourceTree = "<group>"; };
+		253CAF301F9E8991007130FB /* EVMyChargerHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVMyChargerHeaderView.xib; sourceTree = "<group>"; };
+		253CAF321F9E89B8007130FB /* EVMyChargerDelayTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVMyChargerDelayTableViewCell.h; sourceTree = "<group>"; };
+		253CAF331F9E89B8007130FB /* EVMyChargerDelayTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVMyChargerDelayTableViewCell.m; sourceTree = "<group>"; };
+		253CAF341F9E89B8007130FB /* EVMyChargerDelayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVMyChargerDelayTableViewCell.xib; sourceTree = "<group>"; };
+		253CAF371F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVMyChargerScheduleTableViewCell.h; sourceTree = "<group>"; };
+		253CAF381F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVMyChargerScheduleTableViewCell.m; sourceTree = "<group>"; };
+		253CAF391F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVMyChargerScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		253CAF3C1F9E89E8007130FB /* EVMyChargerStatusTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVMyChargerStatusTableViewCell.h; sourceTree = "<group>"; };
+		253CAF3D1F9E89E8007130FB /* EVMyChargerStatusTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVMyChargerStatusTableViewCell.m; sourceTree = "<group>"; };
+		253CAF3E1F9E89E8007130FB /* EVMyChargerStatusTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVMyChargerStatusTableViewCell.xib; sourceTree = "<group>"; };
+		2546C9091FBA18A5001C4337 /* EVCharger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVCharger.h; sourceTree = "<group>"; };
+		2546C90A1FBA18A5001C4337 /* EVCharger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVCharger.m; sourceTree = "<group>"; };
+		2546C90E1FBA65B0001C4337 /* EVChargersManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVChargersManager.h; sourceTree = "<group>"; };
+		2546C90F1FBA65B0001C4337 /* EVChargersManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVChargersManager.m; sourceTree = "<group>"; };
+		2546C9121FBA7E5B001C4337 /* EVSchedule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVSchedule.h; sourceTree = "<group>"; };
+		2546C9131FBA7E5B001C4337 /* EVSchedule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVSchedule.m; sourceTree = "<group>"; };
+		254A41C01FB4A5C400072AFC /* NSMutableData+ReadWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+ReadWrite.h"; sourceTree = "<group>"; };
+		254A41C11FB4A5C400072AFC /* NSMutableData+ReadWrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+ReadWrite.m"; sourceTree = "<group>"; };
+		254A41C91FB5990000072AFC /* EVBLEDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVBLEDataReader.m; sourceTree = "<group>"; };
+		254A41CA1FB5990000072AFC /* EVBLEDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVBLEDataReader.h; sourceTree = "<group>"; };
+		254A41D01FB59FC000072AFC /* EVBLEConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVBLEConstants.h; sourceTree = "<group>"; };
+		254A41D11FB59FC000072AFC /* EVBLEConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVBLEConstants.m; sourceTree = "<group>"; };
+		256D0BFD1FE9A7F100EB6BAD /* EVSystemInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVSystemInformationViewController.h; sourceTree = "<group>"; };
+		256D0BFE1FE9A7F100EB6BAD /* EVSystemInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVSystemInformationViewController.m; sourceTree = "<group>"; };
+		256D0C011FE9A91700EB6BAD /* EVSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVSettingsViewController.h; sourceTree = "<group>"; };
+		258003231FC46A0A00A14739 /* PacketCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketCommand.h; sourceTree = "<group>"; };
+		258003241FC46A0A00A14739 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		258003251FC46A0A00A14739 /* RSAObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAObject.h; sourceTree = "<group>"; };
+		258003261FC46A0A00A14739 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		258003271FC46A0A00A14739 /* DH_AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DH_AES.h; sourceTree = "<group>"; };
+		258003281FC46A0A00A14739 /* libblufiSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libblufiSDK.a; sourceTree = "<group>"; };
+		2580032B1FC46A0A00A14739 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		2580032D1FC46A0A00A14739 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2580032F1FC46A0A00A14739 /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		258003301FC46A0A00A14739 /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		258003311FC46A0A00A14739 /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		258003321FC46A0A00A14739 /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		258003331FC46A0A00A14739 /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		258003341FC46A0A00A14739 /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		258003351FC46A0A00A14739 /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		258003361FC46A0A00A14739 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		258003371FC46A0A00A14739 /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		258003381FC46A0A00A14739 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		258003391FC46A0A00A14739 /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		2580033A1FC46A0A00A14739 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		2580033B1FC46A0A00A14739 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		2580033C1FC46A0A00A14739 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		2580033D1FC46A0A00A14739 /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		2580033E1FC46A0A00A14739 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		2580033F1FC46A0A00A14739 /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		258003401FC46A0A00A14739 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		258003411FC46A0A00A14739 /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		258003421FC46A0A00A14739 /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		258003431FC46A0A00A14739 /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		258003441FC46A0A00A14739 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		258003451FC46A0A00A14739 /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		258003461FC46A0A00A14739 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		258003471FC46A0A00A14739 /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		258003481FC46A0A00A14739 /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		258003491FC46A0A00A14739 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		2580034A1FC46A0A00A14739 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		2580034B1FC46A0A00A14739 /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		2580034C1FC46A0A00A14739 /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		2580034D1FC46A0A00A14739 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		2580034E1FC46A0A00A14739 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		2580034F1FC46A0A00A14739 /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		258003501FC46A0A00A14739 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		258003511FC46A0A00A14739 /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		258003521FC46A0A00A14739 /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		258003531FC46A0A00A14739 /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		258003541FC46A0A00A14739 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		258003551FC46A0A00A14739 /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		258003561FC46A0A00A14739 /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		258003571FC46A0A00A14739 /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		258003581FC46A0A00A14739 /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		258003591FC46A0A00A14739 /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		2580035A1FC46A0A00A14739 /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		2580035B1FC46A0A00A14739 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		2580035C1FC46A0A00A14739 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		2580035D1FC46A0A00A14739 /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		2580035E1FC46A0A00A14739 /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		2580035F1FC46A0A00A14739 /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		258003601FC46A0A00A14739 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		258003611FC46A0A00A14739 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		258003621FC46A0A00A14739 /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		258003631FC46A0A00A14739 /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		258003641FC46A0A00A14739 /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		258003651FC46A0A00A14739 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		258003661FC46A0A00A14739 /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		258003671FC46A0A00A14739 /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		258003681FC46A0A00A14739 /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		258003691FC46A0A00A14739 /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		2580036A1FC46A0A00A14739 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		2580036B1FC46A0A00A14739 /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		2580036C1FC46A0A00A14739 /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		2580036D1FC46A0A00A14739 /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		2580036E1FC46A0A00A14739 /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		2580036F1FC46A0A00A14739 /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		258003701FC46A0A00A14739 /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		258003711FC46A0A00A14739 /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		258003721FC46A0A00A14739 /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		258003731FC46A0A00A14739 /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		258003741FC46A0A00A14739 /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		258003751FC46A0A00A14739 /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		258003761FC46A0A00A14739 /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		258003771FC46A0A00A14739 /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		258003781FC46A0A00A14739 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		258003791FC46A0A00A14739 /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		2580037A1FC46A0A00A14739 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		258003801FC4B96B00A14739 /* EVBLEDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVBLEDevice.h; sourceTree = "<group>"; };
+		258003811FC4B96B00A14739 /* EVBLEDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVBLEDevice.m; sourceTree = "<group>"; };
+		25DF5C0F1FE810E1002BCB20 /* EVSettingsStandartTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVSettingsStandartTableViewCell.h; sourceTree = "<group>"; };
+		25DF5C101FE810E1002BCB20 /* EVSettingsStandartTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVSettingsStandartTableViewCell.m; sourceTree = "<group>"; };
+		25DF5C111FE810E1002BCB20 /* EVSettingsStandartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVSettingsStandartTableViewCell.xib; sourceTree = "<group>"; };
+		25DF5C151FE81259002BCB20 /* EVSettingsDateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVSettingsDateTableViewCell.h; sourceTree = "<group>"; };
+		25DF5C161FE81259002BCB20 /* EVSettingsDateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVSettingsDateTableViewCell.m; sourceTree = "<group>"; };
+		25DF5C171FE81259002BCB20 /* EVSettingsDateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVSettingsDateTableViewCell.xib; sourceTree = "<group>"; };
+		25DF5C1A1FE81346002BCB20 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		25DF5C1E1FE81457002BCB20 /* EVUsageReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVUsageReportViewController.h; sourceTree = "<group>"; };
+		25DF5C1F1FE81457002BCB20 /* EVUsageReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVUsageReportViewController.m; sourceTree = "<group>"; };
+		25DF5C211FE81580002BCB20 /* EVSettingWithImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVSettingWithImageTableViewCell.h; sourceTree = "<group>"; };
+		25DF5C221FE81580002BCB20 /* EVSettingWithImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVSettingWithImageTableViewCell.m; sourceTree = "<group>"; };
+		25DF5C231FE81580002BCB20 /* EVSettingWithImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVSettingWithImageTableViewCell.xib; sourceTree = "<group>"; };
+		25DF5C2B1FE846DE002BCB20 /* EVCustomChargingScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVCustomChargingScheduleViewController.h; sourceTree = "<group>"; };
+		25DF5C2C1FE846DE002BCB20 /* EVCustomChargingScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVCustomChargingScheduleViewController.m; sourceTree = "<group>"; };
+		25DF5C2E1FE84951002BCB20 /* EVSettingsSwitchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVSettingsSwitchTableViewCell.h; sourceTree = "<group>"; };
+		25DF5C2F1FE84951002BCB20 /* EVSettingsSwitchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVSettingsSwitchTableViewCell.m; sourceTree = "<group>"; };
+		25DF5C301FE84951002BCB20 /* EVSettingsSwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVSettingsSwitchTableViewCell.xib; sourceTree = "<group>"; };
+		25DF5C371FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVSettingsTextWithImageTableViewCell.h; sourceTree = "<group>"; };
+		25DF5C381FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVSettingsTextWithImageTableViewCell.m; sourceTree = "<group>"; };
+		25DF5C391FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVSettingsTextWithImageTableViewCell.xib; sourceTree = "<group>"; };
+		25DF5C3D1FE86881002BCB20 /* EVPowerSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVPowerSettingsViewController.h; sourceTree = "<group>"; };
+		25DF5C3E1FE86881002BCB20 /* EVPowerSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVPowerSettingsViewController.m; sourceTree = "<group>"; };
+		25DF5C411FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVSettingsChecboxTableViewCell.h; sourceTree = "<group>"; };
+		25DF5C421FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVSettingsChecboxTableViewCell.m; sourceTree = "<group>"; };
+		25DF5C431FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVSettingsChecboxTableViewCell.xib; sourceTree = "<group>"; };
+		25DF5C471FE883B6002BCB20 /* EVScheduleEditorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVScheduleEditorViewController.h; sourceTree = "<group>"; };
+		25DF5C481FE883B6002BCB20 /* EVScheduleEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVScheduleEditorViewController.m; sourceTree = "<group>"; };
+		25DF5C4B1FE9367F002BCB20 /* EVEnergyProviderSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVEnergyProviderSetupViewController.h; sourceTree = "<group>"; };
+		25DF5C4C1FE9367F002BCB20 /* EVEnergyProviderSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVEnergyProviderSetupViewController.m; sourceTree = "<group>"; };
+		25DF5C4F1FE940C1002BCB20 /* EVNotificationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVNotificationsViewController.h; sourceTree = "<group>"; };
+		25DF5C501FE940C1002BCB20 /* EVNotificationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVNotificationsViewController.m; sourceTree = "<group>"; };
+		25DF5C531FE94E71002BCB20 /* EVSettingsButtonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVSettingsButtonTableViewCell.h; sourceTree = "<group>"; };
+		25DF5C541FE94E71002BCB20 /* EVSettingsButtonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVSettingsButtonTableViewCell.m; sourceTree = "<group>"; };
+		25DF5C551FE94E71002BCB20 /* EVSettingsButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EVSettingsButtonTableViewCell.xib; sourceTree = "<group>"; };
+		4D091A0E18E2881C001582EB /* EVLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVLoginViewController.h; sourceTree = "<group>"; };
+		4D091A0F18E2881C001582EB /* EVLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVLoginViewController.m; sourceTree = "<group>"; };
+		4D091A1118E288DE001582EB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4D091A1418E2BE24001582EB /* EVProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVProfileViewController.h; sourceTree = "<group>"; };
+		4D091A1518E2BE24001582EB /* EVProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVProfileViewController.m; sourceTree = "<group>"; };
+		4D091A1B18E2E81A001582EB /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		4D091A1C18E2E81A001582EB /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		4D091A1D18E2E81A001582EB /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		4D091A1E18E2E81A001582EB /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		4D091A1F18E2E81A001582EB /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		4D091A2018E2E81A001582EB /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		4D091A2118E2E81A001582EB /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		4D091A2218E2E81A001582EB /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		4D091A2318E2E81A001582EB /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		4D091A2418E2E81A001582EB /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		4D091A2518E2E81A001582EB /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		4D091A2618E2E81A001582EB /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		4D091A2718E2E81A001582EB /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		4D091A2818E2E81A001582EB /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		4D091A2918E2E81A001582EB /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		4D091A2A18E2E81A001582EB /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		4D091A2B18E2E81A001582EB /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		4D091A2C18E2E81A001582EB /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		4D091A2D18E2E81A001582EB /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
+		4D091A2E18E2E81A001582EB /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
+		4D091A2F18E2E81A001582EB /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		4D091A3018E2E81A001582EB /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		4D091A3A18E2E860001582EB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4D091A3B18E2E860001582EB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4D0BEE3118E013910043FC1C /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		4D0BEE3218E013910043FC1C /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		4D0BEE3318E013910043FC1C /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		4D0BEE3418E013910043FC1C /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		4D317AB818CF0780000A9386 /* EVCompany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVCompany.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D317ABB18CF0780000A9386 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D317ABD18CF0780000A9386 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D317ABF18CF0780000A9386 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D317AC118CF0780000A9386 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4D317AC518CF0780000A9386 /* EVCompany-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EVCompany-Info.plist"; sourceTree = "<group>"; };
+		4D317AC718CF0780000A9386 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D317AC918CF0780000A9386 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D317ACB18CF0780000A9386 /* EVCompany-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EVCompany-Prefix.pch"; sourceTree = "<group>"; };
+		4D317ACC18CF0780000A9386 /* EVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAppDelegate.h; sourceTree = "<group>"; };
+		4D317ACD18CF0780000A9386 /* EVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAppDelegate.m; sourceTree = "<group>"; };
+		4D317AD018CF0780000A9386 /* EVCompany.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EVCompany.xcdatamodel; sourceTree = "<group>"; };
+		4D317AD818CF0780000A9386 /* EVCompanyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVCompanyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D317AE218CF0780000A9386 /* EVCompanyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EVCompanyTests-Info.plist"; sourceTree = "<group>"; };
+		4D317AE418CF0780000A9386 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D317AE618CF0780000A9386 /* EVCompanyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVCompanyTests.m; sourceTree = "<group>"; };
+		4D317AF318CF2396000A9386 /* EVMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVMapViewController.h; sourceTree = "<group>"; };
+		4D317AF418CF2396000A9386 /* EVMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVMapViewController.m; sourceTree = "<group>"; };
+		4D317AF718CF25F4000A9386 /* EVStations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVStations.h; sourceTree = "<group>"; };
+		4D317AF818CF25F4000A9386 /* EVStations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVStations.m; sourceTree = "<group>"; };
+		4D317AFA18CF3242000A9386 /* EVWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVWebService.h; sourceTree = "<group>"; };
+		4D317AFB18CF3242000A9386 /* EVWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVWebService.m; sourceTree = "<group>"; };
+		4D32FDAC18DBEEAF0070B99E /* EVSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVSearchViewController.h; sourceTree = "<group>"; };
+		4D32FDAD18DBEEAF0070B99E /* EVSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVSearchViewController.m; sourceTree = "<group>"; };
+		4D32FDB118DBFB690070B99E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D32FDB318DC2D4A0070B99E /* EVSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVSearchCell.h; sourceTree = "<group>"; };
+		4D32FDB418DC2D4A0070B99E /* EVSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVSearchCell.m; sourceTree = "<group>"; };
+		4D4D9D1718D02C2300630AE9 /* NSMutableData+PostDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+PostDataAdditions.h"; sourceTree = "<group>"; };
+		4D4D9D1818D02C2300630AE9 /* NSMutableData+PostDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+PostDataAdditions.m"; sourceTree = "<group>"; };
+		4D4D9D1B18D0511900630AE9 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		4D4D9D1C18D0511900630AE9 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		4D4D9D1D18D0511900630AE9 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4D4D9D1E18D0511900630AE9 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4D4D9D1F18D0511900630AE9 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		4D4D9D2018D0511900630AE9 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		4D4D9D2118D0511900630AE9 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		4D4D9D2218D0511900630AE9 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		4D4D9D2318D0511900630AE9 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		4D4D9D2418D0511900630AE9 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		4D4D9D2518D0511900630AE9 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4D4D9D2618D0511900630AE9 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		4D4D9D2718D0511900630AE9 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		4D4D9D2818D0511900630AE9 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4D4D9D2918D0511900630AE9 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		4D4D9D2A18D0511900630AE9 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		4D4D9D2B18D0511900630AE9 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		4D4D9D2C18D0511900630AE9 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		4D4D9D2D18D0511900630AE9 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		4D4D9D3718D0518300630AE9 /* EVClientApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVClientApi.h; sourceTree = "<group>"; };
+		4D4D9D3818D0518300630AE9 /* EVClientApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVClientApi.m; sourceTree = "<group>"; };
+		4D4D9D3A18D05B2A00630AE9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4D4D9D3C18D05E0C00630AE9 /* EVMapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVMapPin.h; sourceTree = "<group>"; };
+		4D4D9D3D18D05E0C00630AE9 /* EVMapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVMapPin.m; sourceTree = "<group>"; };
+		4D4D9D4018D066DB00630AE9 /* GeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCoder.h; sourceTree = "<group>"; };
+		4D4D9D4118D066DB00630AE9 /* GeoCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoCoder.m; sourceTree = "<group>"; };
+		4D4D9D4218D066DB00630AE9 /* NSString+NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSStringAdditions.h"; sourceTree = "<group>"; };
+		4D4D9D4318D066DB00630AE9 /* NSString+NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSStringAdditions.m"; sourceTree = "<group>"; };
+		4D4D9D4618D0736000630AE9 /* EVMapTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVMapTableViewCell.h; sourceTree = "<group>"; };
+		4D4D9D4718D0736000630AE9 /* EVMapTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVMapTableViewCell.m; sourceTree = "<group>"; };
+		4D4DD73018F516620037BC63 /* KGModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGModal.h; sourceTree = "<group>"; };
+		4D4DD73118F516620037BC63 /* KGModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGModal.m; sourceTree = "<group>"; };
+		4D4DD73318F532470037BC63 /* EVStationListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVStationListingViewController.h; sourceTree = "<group>"; };
+		4D4DD73418F532470037BC63 /* EVStationListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVStationListingViewController.m; sourceTree = "<group>"; };
+		4D4F9E4F18F7AE4B00E7F6D5 /* EVMapDetailsRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVMapDetailsRouteViewController.h; sourceTree = "<group>"; };
+		4D4F9E5018F7AE4B00E7F6D5 /* EVMapDetailsRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVMapDetailsRouteViewController.m; sourceTree = "<group>"; };
+		4D4F9E5218F7AEBB00E7F6D5 /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
+		4D4F9E5318F7AEBB00E7F6D5 /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
+		4D4F9E5518F7AEDB00E7F6D5 /* DirectionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionParser.h; sourceTree = "<group>"; };
+		4D4F9E5618F7AEDB00E7F6D5 /* DirectionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionParser.m; sourceTree = "<group>"; };
+		4D5246AF19E5489400D93A93 /* zones.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zones.plist; sourceTree = "<group>"; };
+		4D55921418D826C7004AF51A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4D6A070118F01039003AFA75 /* EVImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVImageCell.h; sourceTree = "<group>"; };
+		4D6A070218F01039003AFA75 /* EVImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVImageCell.m; sourceTree = "<group>"; };
+		4D83F39D18D1B6270018CCD9 /* EVRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVRouteViewController.h; sourceTree = "<group>"; };
+		4D83F39E18D1B6270018CCD9 /* EVRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVRouteViewController.m; sourceTree = "<group>"; };
+		4D85FB9418EEC6E400E7B362 /* TMDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDropDown.h; sourceTree = "<group>"; };
+		4D85FB9518EEC6E400E7B362 /* TMDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDropDown.m; sourceTree = "<group>"; };
+		4D9A033D1A7B90D900A6C31E /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		4D9A033E1A7B90D900A6C31E /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		4D9A74B518D1A5D70036B134 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		4D9A74B618D1A5D70036B134 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		4D9A74B718D1A5D70036B134 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		4D9A74B818D1A5D70036B134 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		4D9A74B918D1A5D70036B134 /* PlaceMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceMark.h; sourceTree = "<group>"; };
+		4D9A74BA18D1A5D70036B134 /* PlaceMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceMark.m; sourceTree = "<group>"; };
+		4D9A74BC18D1A5D70036B134 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		4D9A74BD18D1A5D70036B134 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		4D9E2BDB18D8653B00248F38 /* EVMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVMenuViewController.h; sourceTree = "<group>"; };
+		4D9E2BDC18D8653B00248F38 /* EVMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVMenuViewController.m; sourceTree = "<group>"; };
+		4DB8CEE118E178B900BDF02B /* EVFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVFilterViewController.h; sourceTree = "<group>"; };
+		4DB8CEE218E178B900BDF02B /* EVFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVFilterViewController.m; sourceTree = "<group>"; };
+		4DB8CEE618E1880C00BDF02B /* EVUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVUser.h; sourceTree = "<group>"; };
+		4DB8CEE718E1880C00BDF02B /* EVUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVUser.m; sourceTree = "<group>"; };
+		4DB8CEEB18E19DDE00BDF02B /* EVSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVSignUpViewController.h; sourceTree = "<group>"; };
+		4DB8CEEC18E19DDE00BDF02B /* EVSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVSignUpViewController.m; sourceTree = "<group>"; };
+		4DD9CCFF18EBD1E700B46D5E /* EVAddVehicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAddVehicleViewController.h; sourceTree = "<group>"; };
+		4DD9CD0018EBD1E700B46D5E /* EVAddVehicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAddVehicleViewController.m; sourceTree = "<group>"; };
+		4DD9CD0218EBDFB600B46D5E /* EVSelectCarModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVSelectCarModelViewController.h; sourceTree = "<group>"; };
+		4DD9CD0318EBDFB600B46D5E /* EVSelectCarModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVSelectCarModelViewController.m; sourceTree = "<group>"; };
+		4DD9CD0518EBF0CD00B46D5E /* EVTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVTextField.h; sourceTree = "<group>"; };
+		4DD9CD0618EBF0CD00B46D5E /* EVTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVTextField.m; sourceTree = "<group>"; };
+		4DE303A518E1466C0044BB91 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4DE303A718E146750044BB91 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4DE303A918E146860044BB91 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4DE303AB18E1468E0044BB91 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4DE303AF18E146A60044BB91 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4DE8A521192478BA0018D0A7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		4DE8A523192478C40018D0A7 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		4DE8A525192478D70018D0A7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4DE8A527192478EF0018D0A7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4DE8A529192478FC0018D0A7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4DE8A52B1924791D0018D0A7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		4DE8A52D192479260018D0A7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4DEEF4CF18EA9FC800817146 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		4DEEF4D018EA9FC800817146 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		4DEEF4D318EAAC7100817146 /* EVAddStationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAddStationTableViewController.h; sourceTree = "<group>"; };
+		4DEEF4D418EAAC7100817146 /* EVAddStationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAddStationTableViewController.m; sourceTree = "<group>"; };
+		4DEEF4D618EAACB400817146 /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
+		4DEEF4D718EAACB400817146 /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		4DEEF4D818EAACB400817146 /* ButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCell.h; sourceTree = "<group>"; };
+		4DEEF4D918EAACB400817146 /* ButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCell.m; sourceTree = "<group>"; };
+		4DF38BE718D970260005D6E9 /* EVSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVSlidingViewController.h; sourceTree = "<group>"; };
+		4DF38BE818D970260005D6E9 /* EVSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVSlidingViewController.m; sourceTree = "<group>"; };
+		4DF38BEA18D977090005D6E9 /* EVDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVDetailsViewController.h; sourceTree = "<group>"; };
+		4DF38BEB18D977090005D6E9 /* EVDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVDetailsViewController.m; sourceTree = "<group>"; };
+		4DF38BED18D97E480005D6E9 /* EVDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVDetailCell.h; sourceTree = "<group>"; };
+		4DF38BEE18D97E480005D6E9 /* EVDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVDetailCell.m; sourceTree = "<group>"; };
+		4DFDF9A918E69FE3004A8687 /* EVAddStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAddStationViewController.h; sourceTree = "<group>"; };
+		4DFDF9AA18E69FE3004A8687 /* EVAddStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAddStationViewController.m; sourceTree = "<group>"; };
+		4DFF9EE518E5762C00B19D39 /* EVFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVFavoritesViewController.h; sourceTree = "<group>"; };
+		4DFF9EE618E5762C00B19D39 /* EVFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVFavoritesViewController.m; sourceTree = "<group>"; };
+		4DFF9EE918E5A1C800B19D39 /* EVLikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVLikeViewController.h; sourceTree = "<group>"; };
+		4DFF9EEA18E5A1C800B19D39 /* EVLikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVLikeViewController.m; sourceTree = "<group>"; };
+		79176F791DED1F8B004C6026 /* EVModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVModal.m; sourceTree = "<group>"; };
+		79176F7B1DED1FDA004C6026 /* EVModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVModal.h; sourceTree = "<group>"; };
+		7991C2C41DB7223A003EE975 /* EVCompany.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EVCompany.entitlements; sourceTree = "<group>"; };
+		9510E1431FB5CFFF0012D151 /* EVChargerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVChargerCell.m; sourceTree = "<group>"; };
+		9510E1451FB5D1A80012D151 /* EVChargerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVChargerCell.h; sourceTree = "<group>"; };
+		9510E1461FB5D2350012D151 /* EVBlufiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVBlufiManager.m; sourceTree = "<group>"; };
+		951C39391FDFBC36002F44EC /* EVSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVSettingsViewController.m; sourceTree = "<group>"; };
+		954153771F97C5C900F20EDA /* EVAddChargerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAddChargerViewController.h; sourceTree = "<group>"; };
+		954153781F97C5E800F20EDA /* EVAddChargerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAddChargerViewController.m; sourceTree = "<group>"; };
+		9548EA171FC7005600A6DBDE /* EVAes128EncryptionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAes128EncryptionManager.h; sourceTree = "<group>"; };
+		9548EA181FC7005600A6DBDE /* EVAes128EncryptionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAes128EncryptionManager.m; sourceTree = "<group>"; };
+		9548EA1A1FC7006400A6DBDE /* NSData+AES128Encryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES128Encryption.h"; sourceTree = "<group>"; };
+		9548EA1B1FC7006400A6DBDE /* NSData+AES128Encryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES128Encryption.m"; sourceTree = "<group>"; };
+		9548EA1D1FC7007000A6DBDE /* NSString+AES128Encryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AES128Encryption.h"; sourceTree = "<group>"; };
+		9548EA1E1FC7007000A6DBDE /* NSString+AES128Encryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES128Encryption.m"; sourceTree = "<group>"; };
+		9551A9DF1FE12F3400A2C3AB /* EVUserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVUserCell.h; sourceTree = "<group>"; };
+		9551A9E01FE12F3400A2C3AB /* EVUserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVUserCell.m; sourceTree = "<group>"; };
+		9551A9E11FE12F3400A2C3AB /* EVUserListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVUserListViewController.h; sourceTree = "<group>"; };
+		9551A9E21FE12F3400A2C3AB /* EVUserListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVUserListViewController.m; sourceTree = "<group>"; };
+		95709C921F8EA81100689CBB /* EVMyChargerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVMyChargerViewController.m; sourceTree = "<group>"; };
+		95709C941F8EA83B00689CBB /* EVMyChargerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVMyChargerViewController.h; sourceTree = "<group>"; };
+		95709C961F8F5A7600689CBB /* EVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVViewController.h; sourceTree = "<group>"; };
+		95709C971F8F5A9200689CBB /* EVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVViewController.m; sourceTree = "<group>"; };
+		95709C991F8F5FC200689CBB /* ConstantStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantStrings.m; sourceTree = "<group>"; };
+		95709C9B1F8F610A00689CBB /* ConstantStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantStrings.h; sourceTree = "<group>"; };
+		95709C9E1F8F6D9A00689CBB /* EVConnectWifiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVConnectWifiViewController.h; sourceTree = "<group>"; };
+		95709C9F1F8F6DA900689CBB /* EVConnectWifiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVConnectWifiViewController.m; sourceTree = "<group>"; };
+		95709CA11F8F6DC700689CBB /* EVConnectBluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVConnectBluetoothViewController.m; sourceTree = "<group>"; };
+		95709CA31F8F6DD400689CBB /* EVConnectBluetoothViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVConnectBluetoothViewController.h; sourceTree = "<group>"; };
+		95709CA41F914FF500689CBB /* EVBluetoothManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVBluetoothManager.h; sourceTree = "<group>"; };
+		95709CA51F91505900689CBB /* EVBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVBluetoothManager.m; sourceTree = "<group>"; };
+		95A261511FBA28C2007332BB /* EVBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVBaseRequest.h; sourceTree = "<group>"; };
+		95A261521FBA28C2007332BB /* EVBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVBaseRequest.m; sourceTree = "<group>"; };
+		95A261531FBA28C2007332BB /* EVRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVRequestHandler.h; sourceTree = "<group>"; };
+		95A261541FBA28C2007332BB /* EVRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVRequestHandler.m; sourceTree = "<group>"; };
+		95A261551FBA28C2007332BB /* EVRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVRequestManager.h; sourceTree = "<group>"; };
+		95A261561FBA28C2007332BB /* EVRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVRequestManager.m; sourceTree = "<group>"; };
+		95FFF6B91F9F696100720E38 /* BabyRhythm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BabyRhythm.m; path = BLELib/BabyRhythm.m; sourceTree = "<group>"; };
+		95FFF6BA1F9F696100720E38 /* BabySpeaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BabySpeaker.m; path = BLELib/BabySpeaker.m; sourceTree = "<group>"; };
+		95FFF6BB1F9F696100720E38 /* BabySpeaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BabySpeaker.h; path = BLELib/BabySpeaker.h; sourceTree = "<group>"; };
+		95FFF6BE1F9F696100720E38 /* BabyCentralManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BabyCentralManager.h; path = BLELib/BabyCentralManager.h; sourceTree = "<group>"; };
+		95FFF6BF1F9F696100720E38 /* BabyCentralManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BabyCentralManager.m; path = BLELib/BabyCentralManager.m; sourceTree = "<group>"; };
+		95FFF6C01F9F696100720E38 /* BabyCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BabyCallback.h; path = BLELib/BabyCallback.h; sourceTree = "<group>"; };
+		95FFF6C21F9F696100720E38 /* BabyToy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BabyToy.m; path = BLELib/BabyToy.m; sourceTree = "<group>"; };
+		95FFF6C41F9F696200720E38 /* BabyPeripheralManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BabyPeripheralManager.m; path = BLELib/BabyPeripheralManager.m; sourceTree = "<group>"; };
+		95FFF6C51F9F696200720E38 /* BabyToy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BabyToy.h; path = BLELib/BabyToy.h; sourceTree = "<group>"; };
+		95FFF6C71F9F696200720E38 /* UUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UUID.h; path = BLELib/UUID.h; sourceTree = "<group>"; };
+		95FFF6C91F9F696200720E38 /* BabyRhythm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BabyRhythm.h; path = BLELib/BabyRhythm.h; sourceTree = "<group>"; };
+		95FFF6D21F9FD62000720E38 /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BabyPeripheralManager.h; path = BLELib/BabyPeripheralManager.h; sourceTree = "<group>"; };
+		95FFF6D31F9FD64300720E38 /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BabyBluetooth.h; path = BLELib/BabyBluetooth.h; sourceTree = "<group>"; };
+		95FFF6D41F9FD64300720E38 /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BabyCallback.m; path = BLELib/BabyCallback.m; sourceTree = "<group>"; };
+		95FFF6D51F9FD64300720E38 /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BabyOptions.m; path = BLELib/BabyOptions.m; sourceTree = "<group>"; };
+		95FFF6D61F9FD64300720E38 /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BabyOptions.h; path = BLELib/BabyOptions.h; sourceTree = "<group>"; };
+		95FFF6D71F9FD64300720E38 /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BabyBluetooth.m; path = BLELib/BabyBluetooth.m; sourceTree = "<group>"; };
+		DC130B911BEB89DE00E9C521 /* UserSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSetting.h; sourceTree = "<group>"; };
+		DC130B921BEB89DE00E9C521 /* UserSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSetting.m; sourceTree = "<group>"; };
+		DC43E3A81C7F332300D0FEED /* EVReservationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVReservationListViewController.h; sourceTree = "<group>"; };
+		DC43E3A91C7F332300D0FEED /* EVReservationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVReservationListViewController.m; sourceTree = "<group>"; };
+		DC57FB271BC249FC00F781B3 /* EVOCPPWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVOCPPWebService.h; sourceTree = "<group>"; };
+		DC57FB281BC249FC00F781B3 /* EVOCPPWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVOCPPWebService.m; sourceTree = "<group>"; };
+		DC79C7FA1CCF6F8E00CECF20 /* EVLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVLogViewController.h; sourceTree = "<group>"; };
+		DC79C7FB1CCF6F8E00CECF20 /* EVLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVLogViewController.m; sourceTree = "<group>"; };
+		DC8F7A8C1CD38F6D00585636 /* EVTripToStationRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVTripToStationRouteViewController.h; sourceTree = "<group>"; };
+		DC8F7A8D1CD38F6D00585636 /* EVTripToStationRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVTripToStationRouteViewController.m; sourceTree = "<group>"; };
+		DC99DB301C101787000CDF63 /* EVDirectionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVDirectionService.h; sourceTree = "<group>"; };
+		DC99DB311C101787000CDF63 /* EVDirectionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVDirectionService.m; sourceTree = "<group>"; };
+		DC99DB331C1024A1000CDF63 /* EVDirectionClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVDirectionClient.h; sourceTree = "<group>"; };
+		DC99DB341C1024A1000CDF63 /* EVDirectionClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVDirectionClient.m; sourceTree = "<group>"; };
+		DC9A879B1BFE17C2004FA84C /* EVMargingTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVMargingTextfield.h; sourceTree = "<group>"; };
+		DC9A879C1BFE17C2004FA84C /* EVMargingTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVMargingTextfield.m; sourceTree = "<group>"; };
+		DC9AEA4E1BD610D500EEE48C /* EVListReservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVListReservationViewController.h; sourceTree = "<group>"; };
+		DC9AEA4F1BD610D500EEE48C /* EVListReservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVListReservationViewController.m; sourceTree = "<group>"; };
+		DC9AEA511BD6624000EEE48C /* EVcurrentReservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVcurrentReservation.h; sourceTree = "<group>"; };
+		DC9AEA521BD6624000EEE48C /* EVcurrentReservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVcurrentReservation.m; sourceTree = "<group>"; };
+		DC9D39331BB2A316001599B1 /* EVReservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVReservationViewController.h; sourceTree = "<group>"; };
+		DC9D39341BB2A316001599B1 /* EVReservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVReservationViewController.m; sourceTree = "<group>"; };
+		DCA9DAF01C08678E00C728D7 /* EVOCPPDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVOCPPDetailsViewController.h; sourceTree = "<group>"; };
+		DCA9DAF11C08678E00C728D7 /* EVOCPPDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVOCPPDetailsViewController.m; sourceTree = "<group>"; };
+		DCAC48BB1BE22B450010CFFC /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		DCB109B51B99C318001D7611 /* EVTripPlanTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVTripPlanTableViewController.h; sourceTree = "<group>"; };
+		DCB109B61B99C318001D7611 /* EVTripPlanTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVTripPlanTableViewController.m; sourceTree = "<group>"; };
+		DCB109B91B9D835F001D7611 /* EVUserSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVUserSettingTableViewController.h; sourceTree = "<group>"; };
+		DCB109BA1B9D835F001D7611 /* EVUserSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVUserSettingTableViewController.m; sourceTree = "<group>"; };
+		DCBF15781CAA46100043B76A /* EVTripPlanRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVTripPlanRouteViewController.h; sourceTree = "<group>"; };
+		DCBF15791CAA46100043B76A /* EVTripPlanRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVTripPlanRouteViewController.m; sourceTree = "<group>"; };
+		DCC45C0A1C804C65007601B4 /* EVAllReservationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAllReservationTableViewController.h; sourceTree = "<group>"; };
+		DCC45C0B1C804C65007601B4 /* EVAllReservationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAllReservationTableViewController.m; sourceTree = "<group>"; };
+		DCC45C0D1C804E8E007601B4 /* EVOwnReservationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVOwnReservationTableViewController.h; sourceTree = "<group>"; };
+		DCC45C0E1C804E8E007601B4 /* EVOwnReservationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVOwnReservationTableViewController.m; sourceTree = "<group>"; };
+		DCD478C41BBE6538002253D4 /* EVOCPPClientApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVOCPPClientApi.h; sourceTree = "<group>"; };
+		DCD478C51BBE6538002253D4 /* EVOCPPClientApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVOCPPClientApi.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D317AB518CF0780000A9386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE8A52E192479270018D0A7 /* libz.dylib in Frameworks */,
+				4DE8A52C1924791D0018D0A7 /* libsqlite3.0.dylib in Frameworks */,
+				2580037E1FC46A0A00A14739 /* libssl.a in Frameworks */,
+				4DE8A52A192478FC0018D0A7 /* Social.framework in Frameworks */,
+				4DE8A528192478EF0018D0A7 /* Security.framework in Frameworks */,
+				4DE8A526192478D70018D0A7 /* MediaPlayer.framework in Frameworks */,
+				4DE8A524192478C40018D0A7 /* EventKitUI.framework in Frameworks */,
+				2580037C1FC46A0A00A14739 /* libcrypto.a in Frameworks */,
+				4DE8A522192478BA0018D0A7 /* EventKit.framework in Frameworks */,
+				4DE303B018E146A60044BB91 /* SystemConfiguration.framework in Frameworks */,
+				4DE303AC18E1468E0044BB91 /* MessageUI.framework in Frameworks */,
+				4DE303AA18E146860044BB91 /* CoreTelephony.framework in Frameworks */,
+				4D317ABE18CF0780000A9386 /* CoreGraphics.framework in Frameworks */,
+				4DE303A818E146750044BB91 /* AVFoundation.framework in Frameworks */,
+				4DE303A618E1466C0044BB91 /* AudioToolbox.framework in Frameworks */,
+				4D55921518D826C7004AF51A /* QuartzCore.framework in Frameworks */,
+				4D4D9D3B18D05B2A00630AE9 /* MapKit.framework in Frameworks */,
+				2580037B1FC46A0A00A14739 /* libblufiSDK.a in Frameworks */,
+				4D317AC218CF0780000A9386 /* CoreData.framework in Frameworks */,
+				4D317AC018CF0780000A9386 /* UIKit.framework in Frameworks */,
+				4D317ABC18CF0780000A9386 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D317AD518CF0780000A9386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D317ADD18CF0780000A9386 /* CoreData.framework in Frameworks */,
+				4D317ADC18CF0780000A9386 /* UIKit.framework in Frameworks */,
+				4D317ADB18CF0780000A9386 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2513639B1F9F91CA00979948 /* MyChargerProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				2513639C1F9F91F200979948 /* EVMyChargerProgressView.h */,
+				2513639D1F9F91F200979948 /* EVMyChargerProgressView.m */,
+			);
+			path = MyChargerProgressView;
+			sourceTree = "<group>";
+		};
+		253CAF1E1F9E8764007130FB /* MyChargersListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				253CAF1F1F9E877C007130FB /* EVMyChargersListViewController.h */,
+				253CAF201F9E877C007130FB /* EVMyChargersListViewController.m */,
+			);
+			path = MyChargersListViewController;
+			sourceTree = "<group>";
+		};
+		253CAF221F9E8852007130FB /* MyChargersViews */ = {
+			isa = PBXGroup;
+			children = (
+				2513639B1F9F91CA00979948 /* MyChargerProgressView */,
+				253CAF261F9E88D2007130FB /* MyChargerDelayTableViewCell */,
+				253CAF241F9E88D1007130FB /* MyChargerFooterView */,
+				253CAF251F9E88D1007130FB /* MyChargerHeaderView */,
+				253CAF231F9E88D1007130FB /* MyChargerScheduleTableViewCell */,
+				253CAF271F9E88D2007130FB /* MyChargerStatusTableViewCell */,
+			);
+			path = MyChargersViews;
+			sourceTree = "<group>";
+		};
+		253CAF231F9E88D1007130FB /* MyChargerScheduleTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				253CAF371F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.h */,
+				253CAF381F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.m */,
+				253CAF391F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.xib */,
+			);
+			path = MyChargerScheduleTableViewCell;
+			sourceTree = "<group>";
+		};
+		253CAF241F9E88D1007130FB /* MyChargerFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				253CAF2B1F9E896A007130FB /* EVMyChargerFooterView.h */,
+				253CAF2C1F9E896A007130FB /* EVMyChargerFooterView.m */,
+				253CAF2E1F9E897E007130FB /* EVMyChargerFooterView.xib */,
+			);
+			path = MyChargerFooterView;
+			sourceTree = "<group>";
+		};
+		253CAF251F9E88D1007130FB /* MyChargerHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				253CAF281F9E8955007130FB /* EVMyChargerHeaderView.h */,
+				253CAF291F9E8955007130FB /* EVMyChargerHeaderView.m */,
+				253CAF301F9E8991007130FB /* EVMyChargerHeaderView.xib */,
+			);
+			path = MyChargerHeaderView;
+			sourceTree = "<group>";
+		};
+		253CAF261F9E88D2007130FB /* MyChargerDelayTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				253CAF321F9E89B8007130FB /* EVMyChargerDelayTableViewCell.h */,
+				253CAF331F9E89B8007130FB /* EVMyChargerDelayTableViewCell.m */,
+				253CAF341F9E89B8007130FB /* EVMyChargerDelayTableViewCell.xib */,
+			);
+			path = MyChargerDelayTableViewCell;
+			sourceTree = "<group>";
+		};
+		253CAF271F9E88D2007130FB /* MyChargerStatusTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				253CAF3C1F9E89E8007130FB /* EVMyChargerStatusTableViewCell.h */,
+				253CAF3D1F9E89E8007130FB /* EVMyChargerStatusTableViewCell.m */,
+				253CAF3E1F9E89E8007130FB /* EVMyChargerStatusTableViewCell.xib */,
+			);
+			path = MyChargerStatusTableViewCell;
+			sourceTree = "<group>";
+		};
+		2546C9081FBA186F001C4337 /* Charger */ = {
+			isa = PBXGroup;
+			children = (
+				2546C9091FBA18A5001C4337 /* EVCharger.h */,
+				2546C90A1FBA18A5001C4337 /* EVCharger.m */,
+			);
+			path = Charger;
+			sourceTree = "<group>";
+		};
+		2546C90C1FBA658B001C4337 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2546C90D1FBA659A001C4337 /* ChargersManager */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2546C90D1FBA659A001C4337 /* ChargersManager */ = {
+			isa = PBXGroup;
+			children = (
+				2546C90E1FBA65B0001C4337 /* EVChargersManager.h */,
+				2546C90F1FBA65B0001C4337 /* EVChargersManager.m */,
+			);
+			path = ChargersManager;
+			sourceTree = "<group>";
+		};
+		2546C9111FBA7E4E001C4337 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				2546C9121FBA7E5B001C4337 /* EVSchedule.h */,
+				2546C9131FBA7E5B001C4337 /* EVSchedule.m */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		254A41BB1FB4A49C00072AFC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9548EA191FC7006400A6DBDE /* NSData */,
+				254A41BF1FB4A5C400072AFC /* NSMutableData */,
+				9548EA1C1FC7007000A6DBDE /* NSString */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		254A41BF1FB4A5C400072AFC /* NSMutableData */ = {
+			isa = PBXGroup;
+			children = (
+				254A41C01FB4A5C400072AFC /* NSMutableData+ReadWrite.h */,
+				254A41C11FB4A5C400072AFC /* NSMutableData+ReadWrite.m */,
+			);
+			path = NSMutableData;
+			sourceTree = "<group>";
+		};
+		254A41C31FB4A93100072AFC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				254A41C81FB5990000072AFC /* BLEDataReader */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		254A41C81FB5990000072AFC /* BLEDataReader */ = {
+			isa = PBXGroup;
+			children = (
+				254A41CA1FB5990000072AFC /* EVBLEDataReader.h */,
+				254A41C91FB5990000072AFC /* EVBLEDataReader.m */,
+			);
+			path = BLEDataReader;
+			sourceTree = "<group>";
+		};
+		254A41CF1FB59FAF00072AFC /* BLEConstants */ = {
+			isa = PBXGroup;
+			children = (
+				254A41D01FB59FC000072AFC /* EVBLEConstants.h */,
+				254A41D11FB59FC000072AFC /* EVBLEConstants.m */,
+			);
+			path = BLEConstants;
+			sourceTree = "<group>";
+		};
+		2551703A1FB9F9DF002F024A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9548EA161FC7005600A6DBDE /* EncryptionManager */,
+				95A261501FBA28C2007332BB /* NetworkManager */,
+				2551703B1FB9F9F0002F024A /* BluetoothManager */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2551703B1FB9F9F0002F024A /* BluetoothManager */ = {
+			isa = PBXGroup;
+			children = (
+				95709CA41F914FF500689CBB /* EVBluetoothManager.h */,
+				95709CA51F91505900689CBB /* EVBluetoothManager.m */,
+			);
+			path = BluetoothManager;
+			sourceTree = "<group>";
+		};
+		256D0BFC1FE9A73000EB6BAD /* SystemInformationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				256D0BFD1FE9A7F100EB6BAD /* EVSystemInformationViewController.h */,
+				256D0BFE1FE9A7F100EB6BAD /* EVSystemInformationViewController.m */,
+			);
+			path = SystemInformationViewController;
+			sourceTree = "<group>";
+		};
+		2580031F1FC46A0A00A14739 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				258003201FC46A0A00A14739 /* usr */,
+				258003281FC46A0A00A14739 /* libblufiSDK.a */,
+			);
+			name = lib;
+			path = EVCompany/lib;
+			sourceTree = "<group>";
+		};
+		258003201FC46A0A00A14739 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				258003211FC46A0A00A14739 /* local */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		258003211FC46A0A00A14739 /* local */ = {
+			isa = PBXGroup;
+			children = (
+				258003221FC46A0A00A14739 /* include */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		258003221FC46A0A00A14739 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				258003231FC46A0A00A14739 /* PacketCommand.h */,
+				258003241FC46A0A00A14739 /* dh.h */,
+				258003251FC46A0A00A14739 /* RSAObject.h */,
+				258003261FC46A0A00A14739 /* Prefix.pch */,
+				258003271FC46A0A00A14739 /* DH_AES.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		258003291FC46A0A00A14739 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				2580032A1FC46A0A00A14739 /* openssl */,
+			);
+			name = openssl;
+			path = EVCompany/openssl;
+			sourceTree = "<group>";
+		};
+		2580032A1FC46A0A00A14739 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				2580032B1FC46A0A00A14739 /* libcrypto.a */,
+				2580032C1FC46A0A00A14739 /* include */,
+				2580037A1FC46A0A00A14739 /* libssl.a */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		2580032C1FC46A0A00A14739 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2580032D1FC46A0A00A14739 /* LICENSE */,
+				2580032E1FC46A0A00A14739 /* openssl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		2580032E1FC46A0A00A14739 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				2580032F1FC46A0A00A14739 /* pem2.h */,
+				258003301FC46A0A00A14739 /* pem.h */,
+				258003311FC46A0A00A14739 /* ssl3.h */,
+				258003321FC46A0A00A14739 /* ossl_typ.h */,
+				258003331FC46A0A00A14739 /* dtls1.h */,
+				258003341FC46A0A00A14739 /* err.h */,
+				258003351FC46A0A00A14739 /* bn.h */,
+				258003361FC46A0A00A14739 /* blowfish.h */,
+				258003371FC46A0A00A14739 /* cms.h */,
+				258003381FC46A0A00A14739 /* engine.h */,
+				258003391FC46A0A00A14739 /* conf_api.h */,
+				2580033A1FC46A0A00A14739 /* x509.h */,
+				2580033B1FC46A0A00A14739 /* asn1_mac.h */,
+				2580033C1FC46A0A00A14739 /* ui.h */,
+				2580033D1FC46A0A00A14739 /* kssl.h */,
+				2580033E1FC46A0A00A14739 /* sha.h */,
+				2580033F1FC46A0A00A14739 /* symhacks.h */,
+				258003401FC46A0A00A14739 /* asn1.h */,
+				258003411FC46A0A00A14739 /* opensslconf.h */,
+				258003421FC46A0A00A14739 /* bio.h */,
+				258003431FC46A0A00A14739 /* rc2.h */,
+				258003441FC46A0A00A14739 /* dh.h */,
+				258003451FC46A0A00A14739 /* ui_compat.h */,
+				258003461FC46A0A00A14739 /* x509v3.h */,
+				258003471FC46A0A00A14739 /* ssl23.h */,
+				258003481FC46A0A00A14739 /* conf.h */,
+				258003491FC46A0A00A14739 /* md5.h */,
+				2580034A1FC46A0A00A14739 /* x509_vfy.h */,
+				2580034B1FC46A0A00A14739 /* txt_db.h */,
+				2580034C1FC46A0A00A14739 /* safestack.h */,
+				2580034D1FC46A0A00A14739 /* ecdsa.h */,
+				2580034E1FC46A0A00A14739 /* objects.h */,
+				2580034F1FC46A0A00A14739 /* pkcs12.h */,
+				258003501FC46A0A00A14739 /* crypto.h */,
+				258003511FC46A0A00A14739 /* opensslv.h */,
+				258003521FC46A0A00A14739 /* pkcs7.h */,
+				258003531FC46A0A00A14739 /* obj_mac.h */,
+				258003541FC46A0A00A14739 /* buffer.h */,
+				258003551FC46A0A00A14739 /* ssl.h */,
+				258003561FC46A0A00A14739 /* srp.h */,
+				258003571FC46A0A00A14739 /* camellia.h */,
+				258003581FC46A0A00A14739 /* evp.h */,
+				258003591FC46A0A00A14739 /* e_os2.h */,
+				2580035A1FC46A0A00A14739 /* md4.h */,
+				2580035B1FC46A0A00A14739 /* hmac.h */,
+				2580035C1FC46A0A00A14739 /* aes.h */,
+				2580035D1FC46A0A00A14739 /* comp.h */,
+				2580035E1FC46A0A00A14739 /* cast.h */,
+				2580035F1FC46A0A00A14739 /* rc4.h */,
+				258003601FC46A0A00A14739 /* stack.h */,
+				258003611FC46A0A00A14739 /* des.h */,
+				258003621FC46A0A00A14739 /* ocsp.h */,
+				258003631FC46A0A00A14739 /* ec.h */,
+				258003641FC46A0A00A14739 /* ecdh.h */,
+				258003651FC46A0A00A14739 /* rand.h */,
+				258003661FC46A0A00A14739 /* ts.h */,
+				258003671FC46A0A00A14739 /* pqueue.h */,
+				258003681FC46A0A00A14739 /* dso.h */,
+				258003691FC46A0A00A14739 /* seed.h */,
+				2580036A1FC46A0A00A14739 /* modes.h */,
+				2580036B1FC46A0A00A14739 /* ssl2.h */,
+				2580036C1FC46A0A00A14739 /* rsa.h */,
+				2580036D1FC46A0A00A14739 /* krb5_asn.h */,
+				2580036E1FC46A0A00A14739 /* des_old.h */,
+				2580036F1FC46A0A00A14739 /* ripemd.h */,
+				258003701FC46A0A00A14739 /* whrlpool.h */,
+				258003711FC46A0A00A14739 /* tls1.h */,
+				258003721FC46A0A00A14739 /* mdc2.h */,
+				258003731FC46A0A00A14739 /* dsa.h */,
+				258003741FC46A0A00A14739 /* srtp.h */,
+				258003751FC46A0A00A14739 /* asn1t.h */,
+				258003761FC46A0A00A14739 /* cmac.h */,
+				258003771FC46A0A00A14739 /* ebcdic.h */,
+				258003781FC46A0A00A14739 /* idea.h */,
+				258003791FC46A0A00A14739 /* lhash.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		2580037F1FC4B93700A14739 /* BLEDevice */ = {
+			isa = PBXGroup;
+			children = (
+				258003801FC4B96B00A14739 /* EVBLEDevice.h */,
+				258003811FC4B96B00A14739 /* EVBLEDevice.m */,
+			);
+			path = BLEDevice;
+			sourceTree = "<group>";
+		};
+		25DF5C0C1FE8104D002BCB20 /* SettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C521FE94E19002BCB20 /* SettingsButtonTableViewCell */,
+				25DF5C401FE86A20002BCB20 /* SettingsCheckboxTableViewCell */,
+				25DF5C331FE84BBF002BCB20 /* SettingsTextWithImageTableViewCell */,
+				25DF5C2A1FE845A7002BCB20 /* SettingsSwitchTableViewCell */,
+				25DF5C141FE81212002BCB20 /* SettingsDateTableViewCell */,
+				25DF5C0D1FE810B5002BCB20 /* SettingsStandartTableViewCell */,
+				25DF5C0E1FE810B5002BCB20 /* SettingsWithImageTableViewCell */,
+			);
+			path = SettingsViews;
+			sourceTree = "<group>";
+		};
+		25DF5C0D1FE810B5002BCB20 /* SettingsStandartTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C0F1FE810E1002BCB20 /* EVSettingsStandartTableViewCell.h */,
+				25DF5C101FE810E1002BCB20 /* EVSettingsStandartTableViewCell.m */,
+				25DF5C111FE810E1002BCB20 /* EVSettingsStandartTableViewCell.xib */,
+			);
+			path = SettingsStandartTableViewCell;
+			sourceTree = "<group>";
+		};
+		25DF5C0E1FE810B5002BCB20 /* SettingsWithImageTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C211FE81580002BCB20 /* EVSettingWithImageTableViewCell.h */,
+				25DF5C221FE81580002BCB20 /* EVSettingWithImageTableViewCell.m */,
+				25DF5C231FE81580002BCB20 /* EVSettingWithImageTableViewCell.xib */,
+			);
+			path = SettingsWithImageTableViewCell;
+			sourceTree = "<group>";
+		};
+		25DF5C141FE81212002BCB20 /* SettingsDateTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C151FE81259002BCB20 /* EVSettingsDateTableViewCell.h */,
+				25DF5C161FE81259002BCB20 /* EVSettingsDateTableViewCell.m */,
+				25DF5C171FE81259002BCB20 /* EVSettingsDateTableViewCell.xib */,
+			);
+			path = SettingsDateTableViewCell;
+			sourceTree = "<group>";
+		};
+		25DF5C1C1FE8140F002BCB20 /* SettingsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				256D0BFC1FE9A73000EB6BAD /* SystemInformationViewController */,
+				25DF5C4E1FE93FE8002BCB20 /* NotificationsViewController */,
+				25DF5C4A1FE935C9002BCB20 /* EnergyProviderSetupViewController */,
+				25DF5C461FE8838B002BCB20 /* ScheduleEditorViewController */,
+				25DF5C3C1FE8684A002BCB20 /* PowerSettingsViewController */,
+				25DF5C261FE844BF002BCB20 /* CustomChargingScheduleViewController */,
+				25DF5C1D1FE81429002BCB20 /* UsageReportViewController */,
+			);
+			path = SettingsViewControllers;
+			sourceTree = "<group>";
+		};
+		25DF5C1D1FE81429002BCB20 /* UsageReportViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C1E1FE81457002BCB20 /* EVUsageReportViewController.h */,
+				25DF5C1F1FE81457002BCB20 /* EVUsageReportViewController.m */,
+			);
+			path = UsageReportViewController;
+			sourceTree = "<group>";
+		};
+		25DF5C261FE844BF002BCB20 /* CustomChargingScheduleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C2B1FE846DE002BCB20 /* EVCustomChargingScheduleViewController.h */,
+				25DF5C2C1FE846DE002BCB20 /* EVCustomChargingScheduleViewController.m */,
+			);
+			path = CustomChargingScheduleViewController;
+			sourceTree = "<group>";
+		};
+		25DF5C2A1FE845A7002BCB20 /* SettingsSwitchTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C2E1FE84951002BCB20 /* EVSettingsSwitchTableViewCell.h */,
+				25DF5C2F1FE84951002BCB20 /* EVSettingsSwitchTableViewCell.m */,
+				25DF5C301FE84951002BCB20 /* EVSettingsSwitchTableViewCell.xib */,
+			);
+			path = SettingsSwitchTableViewCell;
+			sourceTree = "<group>";
+		};
+		25DF5C331FE84BBF002BCB20 /* SettingsTextWithImageTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C371FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.h */,
+				25DF5C381FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.m */,
+				25DF5C391FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.xib */,
+			);
+			path = SettingsTextWithImageTableViewCell;
+			sourceTree = "<group>";
+		};
+		25DF5C3C1FE8684A002BCB20 /* PowerSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C3D1FE86881002BCB20 /* EVPowerSettingsViewController.h */,
+				25DF5C3E1FE86881002BCB20 /* EVPowerSettingsViewController.m */,
+			);
+			path = PowerSettingsViewController;
+			sourceTree = "<group>";
+		};
+		25DF5C401FE86A20002BCB20 /* SettingsCheckboxTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C411FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.h */,
+				25DF5C421FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.m */,
+				25DF5C431FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.xib */,
+			);
+			path = SettingsCheckboxTableViewCell;
+			sourceTree = "<group>";
+		};
+		25DF5C461FE8838B002BCB20 /* ScheduleEditorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C471FE883B6002BCB20 /* EVScheduleEditorViewController.h */,
+				25DF5C481FE883B6002BCB20 /* EVScheduleEditorViewController.m */,
+			);
+			path = ScheduleEditorViewController;
+			sourceTree = "<group>";
+		};
+		25DF5C4A1FE935C9002BCB20 /* EnergyProviderSetupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C4B1FE9367F002BCB20 /* EVEnergyProviderSetupViewController.h */,
+				25DF5C4C1FE9367F002BCB20 /* EVEnergyProviderSetupViewController.m */,
+			);
+			path = EnergyProviderSetupViewController;
+			sourceTree = "<group>";
+		};
+		25DF5C4E1FE93FE8002BCB20 /* NotificationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C4F1FE940C1002BCB20 /* EVNotificationsViewController.h */,
+				25DF5C501FE940C1002BCB20 /* EVNotificationsViewController.m */,
+			);
+			path = NotificationsViewController;
+			sourceTree = "<group>";
+		};
+		25DF5C521FE94E19002BCB20 /* SettingsButtonTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C531FE94E71002BCB20 /* EVSettingsButtonTableViewCell.h */,
+				25DF5C541FE94E71002BCB20 /* EVSettingsButtonTableViewCell.m */,
+				25DF5C551FE94E71002BCB20 /* EVSettingsButtonTableViewCell.xib */,
+			);
+			path = SettingsButtonTableViewCell;
+			sourceTree = "<group>";
+		};
+		4D091A0D18E287FC001582EB /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D091A0E18E2881C001582EB /* EVLoginViewController.h */,
+				4D091A0F18E2881C001582EB /* EVLoginViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		4D091A1318E2BE08001582EB /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D091A1418E2BE24001582EB /* EVProfileViewController.h */,
+				4D091A1518E2BE24001582EB /* EVProfileViewController.m */,
+			);
+			name = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		4D091A1718E2E750001582EB /* SDWebcache */ = {
+			isa = PBXGroup;
+			children = (
+				4D091A3A18E2E860001582EB /* MBProgressHUD.h */,
+				4D091A3B18E2E860001582EB /* MBProgressHUD.m */,
+				4D091A1B18E2E81A001582EB /* MKAnnotationView+WebCache.h */,
+				4D091A1C18E2E81A001582EB /* MKAnnotationView+WebCache.m */,
+				4D091A1D18E2E81A001582EB /* SDImageCache.h */,
+				4D091A1E18E2E81A001582EB /* SDImageCache.m */,
+				4D091A1F18E2E81A001582EB /* SDImageCacheDelegate.h */,
+				4D091A2018E2E81A001582EB /* SDWebImageCompat.h */,
+				4D091A2118E2E81A001582EB /* SDWebImageDecoder.h */,
+				4D091A2218E2E81A001582EB /* SDWebImageDecoder.m */,
+				4D091A2318E2E81A001582EB /* SDWebImageDownloader.h */,
+				4D091A2418E2E81A001582EB /* SDWebImageDownloader.m */,
+				4D091A2518E2E81A001582EB /* SDWebImageDownloaderDelegate.h */,
+				4D091A2618E2E81A001582EB /* SDWebImageManager.h */,
+				4D091A2718E2E81A001582EB /* SDWebImageManager.m */,
+				4D091A2818E2E81A001582EB /* SDWebImageManagerDelegate.h */,
+				4D091A2918E2E81A001582EB /* SDWebImagePrefetcher.h */,
+				4D091A2A18E2E81A001582EB /* SDWebImagePrefetcher.m */,
+				4D091A2B18E2E81A001582EB /* UIButton+WebCache.h */,
+				4D091A2C18E2E81A001582EB /* UIButton+WebCache.m */,
+				4D091A2D18E2E81A001582EB /* UIColor+ColorWithHex.h */,
+				4D091A2E18E2E81A001582EB /* UIColor+ColorWithHex.m */,
+				4D091A2F18E2E81A001582EB /* UIImageView+WebCache.h */,
+				4D091A3018E2E81A001582EB /* UIImageView+WebCache.m */,
+			);
+			name = SDWebcache;
+			sourceTree = "<group>";
+		};
+		4D317AAF18CF0780000A9386 = {
+			isa = PBXGroup;
+			children = (
+				4D5246AF19E5489400D93A93 /* zones.plist */,
+				4D9A033D1A7B90D900A6C31E /* iTunesArtwork */,
+				4D9A033E1A7B90D900A6C31E /* iTunesArtwork@2x */,
+				4D317AC318CF0780000A9386 /* EVCompany */,
+				2580031F1FC46A0A00A14739 /* lib */,
+				258003291FC46A0A00A14739 /* openssl */,
+				4D317AE018CF0780000A9386 /* EVCompanyTests */,
+				4D317ABA18CF0780000A9386 /* Frameworks */,
+				4D317AB918CF0780000A9386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D317AB918CF0780000A9386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D317AB818CF0780000A9386 /* EVCompany.app */,
+				4D317AD818CF0780000A9386 /* EVCompanyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D317ABA18CF0780000A9386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE8A52D192479260018D0A7 /* libz.dylib */,
+				4DE8A52B1924791D0018D0A7 /* libsqlite3.0.dylib */,
+				4DE8A529192478FC0018D0A7 /* Social.framework */,
+				4DE8A527192478EF0018D0A7 /* Security.framework */,
+				4DE8A525192478D70018D0A7 /* MediaPlayer.framework */,
+				4DE8A523192478C40018D0A7 /* EventKitUI.framework */,
+				4DE8A521192478BA0018D0A7 /* EventKit.framework */,
+				4DE303AF18E146A60044BB91 /* SystemConfiguration.framework */,
+				4DE303AB18E1468E0044BB91 /* MessageUI.framework */,
+				4DE303A918E146860044BB91 /* CoreTelephony.framework */,
+				4DE303A718E146750044BB91 /* AVFoundation.framework */,
+				4DE303A518E1466C0044BB91 /* AudioToolbox.framework */,
+				4D55921418D826C7004AF51A /* QuartzCore.framework */,
+				4D4D9D3A18D05B2A00630AE9 /* MapKit.framework */,
+				4D317ABB18CF0780000A9386 /* Foundation.framework */,
+				4D317ABD18CF0780000A9386 /* CoreGraphics.framework */,
+				4D317ABF18CF0780000A9386 /* UIKit.framework */,
+				4D317AC118CF0780000A9386 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D317AC318CF0780000A9386 /* EVCompany */ = {
+			isa = PBXGroup;
+			children = (
+				2546C90C1FBA658B001C4337 /* Sources */,
+				2551703A1FB9F9DF002F024A /* Network */,
+				254A41C31FB4A93100072AFC /* Utils */,
+				254A41BB1FB4A49C00072AFC /* Extension */,
+				95FFF6B81F9F694C00720E38 /* BLELib */,
+				79176F781DED1F62004C6026 /* Views */,
+				7991C2C41DB7223A003EE975 /* EVCompany.entitlements */,
+				4D317ACC18CF0780000A9386 /* EVAppDelegate.h */,
+				4D317ACD18CF0780000A9386 /* EVAppDelegate.m */,
+				4D32FDB118DBFB690070B99E /* Images.xcassets */,
+				4D317ACF18CF0780000A9386 /* EVCompany.xcdatamodeld */,
+				4DEEF4CF18EA9FC800817146 /* Filter.h */,
+				4DEEF4D018EA9FC800817146 /* Filter.m */,
+				DC130B911BEB89DE00E9C521 /* UserSetting.h */,
+				9510E1461FB5D2350012D151 /* EVBlufiManager.m */,
+				DC130B921BEB89DE00E9C521 /* UserSetting.m */,
+				4D091A1118E288DE001582EB /* Main.storyboard */,
+				25DF5C1A1FE81346002BCB20 /* Settings.storyboard */,
+				4D9A74AF18D17A020036B134 /* ViewControllers */,
+				4D9A74AE18D179DE0036B134 /* External */,
+				4D4D9D1618D02C0A00630AE9 /* categories */,
+				4D317AF618CF25C4000A9386 /* DataModels */,
+				4D317AC418CF0780000A9386 /* Supporting Files */,
+			);
+			path = EVCompany;
+			sourceTree = "<group>";
+		};
+		4D317AC418CF0780000A9386 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				254A41CF1FB59FAF00072AFC /* BLEConstants */,
+				4D317AC518CF0780000A9386 /* EVCompany-Info.plist */,
+				4D317AC618CF0780000A9386 /* InfoPlist.strings */,
+				95709C991F8F5FC200689CBB /* ConstantStrings.m */,
+				95709C9B1F8F610A00689CBB /* ConstantStrings.h */,
+				4D317AC918CF0780000A9386 /* main.m */,
+				4D317ACB18CF0780000A9386 /* EVCompany-Prefix.pch */,
+				DCAC48BB1BE22B450010CFFC /* config.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D317AE018CF0780000A9386 /* EVCompanyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D317AE618CF0780000A9386 /* EVCompanyTests.m */,
+				4D317AE118CF0780000A9386 /* Supporting Files */,
+			);
+			path = EVCompanyTests;
+			sourceTree = "<group>";
+		};
+		4D317AE118CF0780000A9386 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D317AE218CF0780000A9386 /* EVCompanyTests-Info.plist */,
+				4D317AE318CF0780000A9386 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D317AF218CF236A000A9386 /* Mapview controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D317AF318CF2396000A9386 /* EVMapViewController.h */,
+				4D317AF418CF2396000A9386 /* EVMapViewController.m */,
+			);
+			name = "Mapview controller";
+			sourceTree = "<group>";
+		};
+		4D317AF618CF25C4000A9386 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				2580037F1FC4B93700A14739 /* BLEDevice */,
+				2546C9081FBA186F001C4337 /* Charger */,
+				2546C9111FBA7E4E001C4337 /* Schedule */,
+				4DD9CD0518EBF0CD00B46D5E /* EVTextField.h */,
+				4DD9CD0618EBF0CD00B46D5E /* EVTextField.m */,
+				4D4D9D3C18D05E0C00630AE9 /* EVMapPin.h */,
+				4D4D9D3D18D05E0C00630AE9 /* EVMapPin.m */,
+				4D4D9D3718D0518300630AE9 /* EVClientApi.h */,
+				4D4D9D3818D0518300630AE9 /* EVClientApi.m */,
+				4D317AF718CF25F4000A9386 /* EVStations.h */,
+				4D317AF818CF25F4000A9386 /* EVStations.m */,
+				4D317AFA18CF3242000A9386 /* EVWebService.h */,
+				4D317AFB18CF3242000A9386 /* EVWebService.m */,
+				4D4D9D4618D0736000630AE9 /* EVMapTableViewCell.h */,
+				4D4D9D4718D0736000630AE9 /* EVMapTableViewCell.m */,
+				4DF38BED18D97E480005D6E9 /* EVDetailCell.h */,
+				4DF38BEE18D97E480005D6E9 /* EVDetailCell.m */,
+				4D32FDB318DC2D4A0070B99E /* EVSearchCell.h */,
+				4D32FDB418DC2D4A0070B99E /* EVSearchCell.m */,
+				4DEEF4D618EAACB400817146 /* TextFieldCell.h */,
+				4DEEF4D718EAACB400817146 /* TextFieldCell.m */,
+				4DEEF4D818EAACB400817146 /* ButtonCell.h */,
+				4DEEF4D918EAACB400817146 /* ButtonCell.m */,
+				4DB8CEE618E1880C00BDF02B /* EVUser.h */,
+				4DB8CEE718E1880C00BDF02B /* EVUser.m */,
+				4D6A070118F01039003AFA75 /* EVImageCell.h */,
+				4D6A070218F01039003AFA75 /* EVImageCell.m */,
+				DCD478C41BBE6538002253D4 /* EVOCPPClientApi.h */,
+				DCD478C51BBE6538002253D4 /* EVOCPPClientApi.m */,
+				DC57FB271BC249FC00F781B3 /* EVOCPPWebService.h */,
+				DC57FB281BC249FC00F781B3 /* EVOCPPWebService.m */,
+				DC9A879B1BFE17C2004FA84C /* EVMargingTextfield.h */,
+				DC9A879C1BFE17C2004FA84C /* EVMargingTextfield.m */,
+				DC99DB301C101787000CDF63 /* EVDirectionService.h */,
+				DC99DB311C101787000CDF63 /* EVDirectionService.m */,
+				DC99DB331C1024A1000CDF63 /* EVDirectionClient.h */,
+				DC99DB341C1024A1000CDF63 /* EVDirectionClient.m */,
+				95709C961F8F5A7600689CBB /* EVViewController.h */,
+				95709C971F8F5A9200689CBB /* EVViewController.m */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		4D32FDAB18DBEE7D0070B99E /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D32FDAC18DBEEAF0070B99E /* EVSearchViewController.h */,
+				4D32FDAD18DBEEAF0070B99E /* EVSearchViewController.m */,
+			);
+			name = SearchViewController;
+			sourceTree = "<group>";
+		};
+		4D4D9D1618D02C0A00630AE9 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				4D4D9D1718D02C2300630AE9 /* NSMutableData+PostDataAdditions.h */,
+				4D4D9D1818D02C2300630AE9 /* NSMutableData+PostDataAdditions.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		4D4D9D1A18D0511900630AE9 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4D4D9D1B18D0511900630AE9 /* AFHTTPClient.h */,
+				4D4D9D1C18D0511900630AE9 /* AFHTTPClient.m */,
+				4D4D9D1D18D0511900630AE9 /* AFHTTPRequestOperation.h */,
+				4D4D9D1E18D0511900630AE9 /* AFHTTPRequestOperation.m */,
+				4D4D9D1F18D0511900630AE9 /* AFImageRequestOperation.h */,
+				4D4D9D2018D0511900630AE9 /* AFImageRequestOperation.m */,
+				4D4D9D2118D0511900630AE9 /* AFJSONRequestOperation.h */,
+				4D4D9D2218D0511900630AE9 /* AFJSONRequestOperation.m */,
+				4D4D9D2318D0511900630AE9 /* AFNetworkActivityIndicatorManager.h */,
+				4D4D9D2418D0511900630AE9 /* AFNetworkActivityIndicatorManager.m */,
+				4D4D9D2518D0511900630AE9 /* AFNetworking.h */,
+				4D4D9D2618D0511900630AE9 /* AFPropertyListRequestOperation.h */,
+				4D4D9D2718D0511900630AE9 /* AFPropertyListRequestOperation.m */,
+				4D4D9D2818D0511900630AE9 /* AFURLConnectionOperation.h */,
+				4D4D9D2918D0511900630AE9 /* AFURLConnectionOperation.m */,
+				4D4D9D2A18D0511900630AE9 /* AFXMLRequestOperation.h */,
+				4D4D9D2B18D0511900630AE9 /* AFXMLRequestOperation.m */,
+				4D4D9D2C18D0511900630AE9 /* UIImageView+AFNetworking.h */,
+				4D4D9D2D18D0511900630AE9 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4D4D9D3F18D066C800630AE9 /* GeoCoding */ = {
+			isa = PBXGroup;
+			children = (
+				4D4D9D4018D066DB00630AE9 /* GeoCoder.h */,
+				4D4D9D4118D066DB00630AE9 /* GeoCoder.m */,
+				4D4D9D4218D066DB00630AE9 /* NSString+NSStringAdditions.h */,
+				4D4D9D4318D066DB00630AE9 /* NSString+NSStringAdditions.m */,
+			);
+			name = GeoCoding;
+			sourceTree = "<group>";
+		};
+		4D4DD72F18F5162B0037BC63 /* KGView */ = {
+			isa = PBXGroup;
+			children = (
+				4D4DD73018F516620037BC63 /* KGModal.h */,
+				4D4DD73118F516620037BC63 /* KGModal.m */,
+			);
+			name = KGView;
+			sourceTree = "<group>";
+		};
+		4D5591FF18D81FB0004AF51A /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D0BEE3118E013910043FC1C /* ECSlidingViewController.h */,
+				4D0BEE3218E013910043FC1C /* ECSlidingViewController.m */,
+				4D0BEE3318E013910043FC1C /* UIImage+ImageWithUIView.h */,
+				4D0BEE3418E013910043FC1C /* UIImage+ImageWithUIView.m */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		4D83F39C18D1B6090018CCD9 /* RouteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D83F39D18D1B6270018CCD9 /* EVRouteViewController.h */,
+				4D83F39E18D1B6270018CCD9 /* EVRouteViewController.m */,
+			);
+			name = RouteViewController;
+			sourceTree = "<group>";
+		};
+		4D85FB9318EEC6D700E7B362 /* TMDropdown */ = {
+			isa = PBXGroup;
+			children = (
+				4D85FB9418EEC6E400E7B362 /* TMDropDown.h */,
+				4D85FB9518EEC6E400E7B362 /* TMDropDown.m */,
+			);
+			name = TMDropdown;
+			sourceTree = "<group>";
+		};
+		4D9A74AE18D179DE0036B134 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				4D4DD72F18F5162B0037BC63 /* KGView */,
+				4D85FB9318EEC6D700E7B362 /* TMDropdown */,
+				4D091A1718E2E750001582EB /* SDWebcache */,
+				4DE3039718E146050044BB91 /* GoogleAdmobAdSdk */,
+				4D5591FF18D81FB0004AF51A /* ECSlidingViewController */,
+				4D9A74B418D1A5D70036B134 /* Routes */,
+				4D4D9D3F18D066C800630AE9 /* GeoCoding */,
+				4D4D9D1A18D0511900630AE9 /* AFNetworking */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		4D9A74AF18D17A020036B134 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C1C1FE8140F002BCB20 /* SettingsViewControllers */,
+				951C39371FDFBBEB002F44EC /* SettingsViewController */,
+				253CAF1E1F9E8764007130FB /* MyChargersListViewController */,
+				9551A9DE1FE12F3400A2C3AB /* UserList */,
+				954153761F97C5AC00F20EDA /* AddChargerViewController */,
+				95709C9D1F8F6D6C00689CBB /* ConnectViaBluetooth */,
+				95709C9C1F8F6D4D00689CBB /* ConnectViaWifi */,
+				95709C911F8EA79000689CBB /* MyChargerViewController */,
+				DC9D39321BB2A2D8001599B1 /* ReservationViewController */,
+				4DD9CD0218EBDFB600B46D5E /* EVSelectCarModelViewController.h */,
+				4DD9CD0318EBDFB600B46D5E /* EVSelectCarModelViewController.m */,
+				DCB109B81B9D8314001D7611 /* UserSettingViewController */,
+				DCB109B41B99C25C001D7611 /* TripPlanViewController */,
+				4DD9CCFE18EBD1B200B46D5E /* AddVehicleViewController */,
+				4DEEF4D218EAAC5B00817146 /* AddStationTableViewController */,
+				4DFDF9A818E69FBC004A8687 /* AddStationViewController */,
+				4DFF9EE818E59F3700B19D39 /* LikeViewController */,
+				4DFF9EE418E5760C00B19D39 /* FavoriteViewController */,
+				4D091A1318E2BE08001582EB /* ProfileViewController */,
+				4D091A0D18E287FC001582EB /* LoginViewController */,
+				4DB8CEE918E19DB700BDF02B /* SignUpViewController */,
+				4DB8CEE018E1788A00BDF02B /* EVFilterViewController */,
+				4D32FDAB18DBEE7D0070B99E /* SearchViewController */,
+				4DF38BE618D96FFB0005D6E9 /* EVSlidingViewController */,
+				4DF38BDD18D957470005D6E9 /* DetailViewController */,
+				4D9E2BDA18D864F900248F38 /* MenuViewcontroller */,
+				4D83F39C18D1B6090018CCD9 /* RouteViewController */,
+				4D9A74B018D17FD10036B134 /* StationDetailsViewController */,
+				4D317AF218CF236A000A9386 /* Mapview controller */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4D9A74B018D17FD10036B134 /* StationDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DF38BEA18D977090005D6E9 /* EVDetailsViewController.h */,
+				4DF38BEB18D977090005D6E9 /* EVDetailsViewController.m */,
+				DCA9DAF01C08678E00C728D7 /* EVOCPPDetailsViewController.h */,
+				DCA9DAF11C08678E00C728D7 /* EVOCPPDetailsViewController.m */,
+				4D4F9E4F18F7AE4B00E7F6D5 /* EVMapDetailsRouteViewController.h */,
+				4D4F9E5018F7AE4B00E7F6D5 /* EVMapDetailsRouteViewController.m */,
+				4D4F9E5218F7AEBB00E7F6D5 /* AddressAnnotation.h */,
+				4D4F9E5318F7AEBB00E7F6D5 /* AddressAnnotation.m */,
+				4D4F9E5518F7AEDB00E7F6D5 /* DirectionParser.h */,
+				4D4F9E5618F7AEDB00E7F6D5 /* DirectionParser.m */,
+			);
+			name = StationDetailsViewController;
+			sourceTree = "<group>";
+		};
+		4D9A74B418D1A5D70036B134 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				4D9A74B518D1A5D70036B134 /* MapView.h */,
+				4D9A74B618D1A5D70036B134 /* MapView.m */,
+				4D9A74B718D1A5D70036B134 /* Place.h */,
+				4D9A74B818D1A5D70036B134 /* Place.m */,
+				4D9A74B918D1A5D70036B134 /* PlaceMark.h */,
+				4D9A74BA18D1A5D70036B134 /* PlaceMark.m */,
+				4D9A74BB18D1A5D70036B134 /* RegexKitLite */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		4D9A74BB18D1A5D70036B134 /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				4D9A74BC18D1A5D70036B134 /* RegexKitLite.h */,
+				4D9A74BD18D1A5D70036B134 /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		4D9E2BDA18D864F900248F38 /* MenuViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				4D9E2BDB18D8653B00248F38 /* EVMenuViewController.h */,
+				4D9E2BDC18D8653B00248F38 /* EVMenuViewController.m */,
+			);
+			name = MenuViewcontroller;
+			sourceTree = "<group>";
+		};
+		4DB8CEE018E1788A00BDF02B /* EVFilterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DB8CEE118E178B900BDF02B /* EVFilterViewController.h */,
+				4DB8CEE218E178B900BDF02B /* EVFilterViewController.m */,
+			);
+			name = EVFilterViewController;
+			sourceTree = "<group>";
+		};
+		4DB8CEE918E19DB700BDF02B /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DB8CEEB18E19DDE00BDF02B /* EVSignUpViewController.h */,
+				4DB8CEEC18E19DDE00BDF02B /* EVSignUpViewController.m */,
+			);
+			name = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		4DD9CCFE18EBD1B200B46D5E /* AddVehicleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DD9CCFF18EBD1E700B46D5E /* EVAddVehicleViewController.h */,
+				4DD9CD0018EBD1E700B46D5E /* EVAddVehicleViewController.m */,
+			);
+			name = AddVehicleViewController;
+			sourceTree = "<group>";
+		};
+		4DE3039718E146050044BB91 /* GoogleAdmobAdSdk */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GoogleAdmobAdSdk;
+			sourceTree = "<group>";
+		};
+		4DEEF4D218EAAC5B00817146 /* AddStationTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DEEF4D318EAAC7100817146 /* EVAddStationTableViewController.h */,
+				4DEEF4D418EAAC7100817146 /* EVAddStationTableViewController.m */,
+			);
+			name = AddStationTableViewController;
+			sourceTree = "<group>";
+		};
+		4DF38BDD18D957470005D6E9 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D4DD73318F532470037BC63 /* EVStationListingViewController.h */,
+				4D4DD73418F532470037BC63 /* EVStationListingViewController.m */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		4DF38BE618D96FFB0005D6E9 /* EVSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DF38BE718D970260005D6E9 /* EVSlidingViewController.h */,
+				4DF38BE818D970260005D6E9 /* EVSlidingViewController.m */,
+			);
+			name = EVSlidingViewController;
+			sourceTree = "<group>";
+		};
+		4DFDF9A818E69FBC004A8687 /* AddStationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DFDF9A918E69FE3004A8687 /* EVAddStationViewController.h */,
+				4DFDF9AA18E69FE3004A8687 /* EVAddStationViewController.m */,
+			);
+			name = AddStationViewController;
+			sourceTree = "<group>";
+		};
+		4DFF9EE418E5760C00B19D39 /* FavoriteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF9EE518E5762C00B19D39 /* EVFavoritesViewController.h */,
+				4DFF9EE618E5762C00B19D39 /* EVFavoritesViewController.m */,
+			);
+			name = FavoriteViewController;
+			sourceTree = "<group>";
+		};
+		4DFF9EE818E59F3700B19D39 /* LikeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF9EE918E5A1C800B19D39 /* EVLikeViewController.h */,
+				4DFF9EEA18E5A1C800B19D39 /* EVLikeViewController.m */,
+			);
+			name = LikeViewController;
+			sourceTree = "<group>";
+		};
+		79176F781DED1F62004C6026 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25DF5C0C1FE8104D002BCB20 /* SettingsViews */,
+				253CAF221F9E8852007130FB /* MyChargersViews */,
+				79176F791DED1F8B004C6026 /* EVModal.m */,
+				79176F7B1DED1FDA004C6026 /* EVModal.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		951C39371FDFBBEB002F44EC /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				256D0C011FE9A91700EB6BAD /* EVSettingsViewController.h */,
+				951C39391FDFBC36002F44EC /* EVSettingsViewController.m */,
+			);
+			name = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		954153761F97C5AC00F20EDA /* AddChargerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				954153781F97C5E800F20EDA /* EVAddChargerViewController.m */,
+				954153771F97C5C900F20EDA /* EVAddChargerViewController.h */,
+			);
+			name = AddChargerViewController;
+			sourceTree = "<group>";
+		};
+		9548EA161FC7005600A6DBDE /* EncryptionManager */ = {
+			isa = PBXGroup;
+			children = (
+				9548EA171FC7005600A6DBDE /* EVAes128EncryptionManager.h */,
+				9548EA181FC7005600A6DBDE /* EVAes128EncryptionManager.m */,
+			);
+			path = EncryptionManager;
+			sourceTree = "<group>";
+		};
+		9548EA191FC7006400A6DBDE /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				9548EA1A1FC7006400A6DBDE /* NSData+AES128Encryption.h */,
+				9548EA1B1FC7006400A6DBDE /* NSData+AES128Encryption.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		9548EA1C1FC7007000A6DBDE /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				9548EA1D1FC7007000A6DBDE /* NSString+AES128Encryption.h */,
+				9548EA1E1FC7007000A6DBDE /* NSString+AES128Encryption.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		9551A9DE1FE12F3400A2C3AB /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				9551A9DF1FE12F3400A2C3AB /* EVUserCell.h */,
+				9551A9E01FE12F3400A2C3AB /* EVUserCell.m */,
+				9551A9E11FE12F3400A2C3AB /* EVUserListViewController.h */,
+				9551A9E21FE12F3400A2C3AB /* EVUserListViewController.m */,
+			);
+			name = UserList;
+			path = EVCompany/UserList;
+			sourceTree = SOURCE_ROOT;
+		};
+		95709C911F8EA79000689CBB /* MyChargerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				95709C941F8EA83B00689CBB /* EVMyChargerViewController.h */,
+				95709C921F8EA81100689CBB /* EVMyChargerViewController.m */,
+			);
+			name = MyChargerViewController;
+			sourceTree = "<group>";
+		};
+		95709C9C1F8F6D4D00689CBB /* ConnectViaWifi */ = {
+			isa = PBXGroup;
+			children = (
+				95709C9E1F8F6D9A00689CBB /* EVConnectWifiViewController.h */,
+				95709C9F1F8F6DA900689CBB /* EVConnectWifiViewController.m */,
+			);
+			name = ConnectViaWifi;
+			sourceTree = "<group>";
+		};
+		95709C9D1F8F6D6C00689CBB /* ConnectViaBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				95709CA31F8F6DD400689CBB /* EVConnectBluetoothViewController.h */,
+				9510E1431FB5CFFF0012D151 /* EVChargerCell.m */,
+				9510E1451FB5D1A80012D151 /* EVChargerCell.h */,
+				95709CA11F8F6DC700689CBB /* EVConnectBluetoothViewController.m */,
+			);
+			name = ConnectViaBluetooth;
+			sourceTree = "<group>";
+		};
+		95A261501FBA28C2007332BB /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				95A261511FBA28C2007332BB /* EVBaseRequest.h */,
+				95A261521FBA28C2007332BB /* EVBaseRequest.m */,
+				95A261531FBA28C2007332BB /* EVRequestHandler.h */,
+				95A261541FBA28C2007332BB /* EVRequestHandler.m */,
+				95A261551FBA28C2007332BB /* EVRequestManager.h */,
+				95A261561FBA28C2007332BB /* EVRequestManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		95FFF6B81F9F694C00720E38 /* BLELib */ = {
+			isa = PBXGroup;
+			children = (
+				95FFF6D31F9FD64300720E38 /* BabyBluetooth.h */,
+				95FFF6D71F9FD64300720E38 /* BabyBluetooth.m */,
+				95FFF6D41F9FD64300720E38 /* BabyCallback.m */,
+				95FFF6D61F9FD64300720E38 /* BabyOptions.h */,
+				95FFF6D51F9FD64300720E38 /* BabyOptions.m */,
+				95FFF6C01F9F696100720E38 /* BabyCallback.h */,
+				95FFF6BE1F9F696100720E38 /* BabyCentralManager.h */,
+				95FFF6D21F9FD62000720E38 /* BabyPeripheralManager.h */,
+				95FFF6BF1F9F696100720E38 /* BabyCentralManager.m */,
+				95FFF6C41F9F696200720E38 /* BabyPeripheralManager.m */,
+				95FFF6C91F9F696200720E38 /* BabyRhythm.h */,
+				95FFF6B91F9F696100720E38 /* BabyRhythm.m */,
+				95FFF6BB1F9F696100720E38 /* BabySpeaker.h */,
+				95FFF6BA1F9F696100720E38 /* BabySpeaker.m */,
+				95FFF6C51F9F696200720E38 /* BabyToy.h */,
+				95FFF6C21F9F696100720E38 /* BabyToy.m */,
+				95FFF6C71F9F696200720E38 /* UUID.h */,
+			);
+			name = BLELib;
+			sourceTree = "<group>";
+		};
+		DC9D39321BB2A2D8001599B1 /* ReservationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DC9D39331BB2A316001599B1 /* EVReservationViewController.h */,
+				DC9D39341BB2A316001599B1 /* EVReservationViewController.m */,
+				DC9AEA4E1BD610D500EEE48C /* EVListReservationViewController.h */,
+				DC9AEA4F1BD610D500EEE48C /* EVListReservationViewController.m */,
+				DC9AEA511BD6624000EEE48C /* EVcurrentReservation.h */,
+				DC9AEA521BD6624000EEE48C /* EVcurrentReservation.m */,
+				DC43E3A81C7F332300D0FEED /* EVReservationListViewController.h */,
+				DC43E3A91C7F332300D0FEED /* EVReservationListViewController.m */,
+				DCC45C0A1C804C65007601B4 /* EVAllReservationTableViewController.h */,
+				DCC45C0B1C804C65007601B4 /* EVAllReservationTableViewController.m */,
+				DCC45C0D1C804E8E007601B4 /* EVOwnReservationTableViewController.h */,
+				DCC45C0E1C804E8E007601B4 /* EVOwnReservationTableViewController.m */,
+			);
+			name = ReservationViewController;
+			sourceTree = "<group>";
+		};
+		DCB109B41B99C25C001D7611 /* TripPlanViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCB109B51B99C318001D7611 /* EVTripPlanTableViewController.h */,
+				DCB109B61B99C318001D7611 /* EVTripPlanTableViewController.m */,
+				DCBF15781CAA46100043B76A /* EVTripPlanRouteViewController.h */,
+				DCBF15791CAA46100043B76A /* EVTripPlanRouteViewController.m */,
+				DC8F7A8C1CD38F6D00585636 /* EVTripToStationRouteViewController.h */,
+				DC8F7A8D1CD38F6D00585636 /* EVTripToStationRouteViewController.m */,
+			);
+			name = TripPlanViewController;
+			sourceTree = "<group>";
+		};
+		DCB109B81B9D8314001D7611 /* UserSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCB109B91B9D835F001D7611 /* EVUserSettingTableViewController.h */,
+				DCB109BA1B9D835F001D7611 /* EVUserSettingTableViewController.m */,
+				DC79C7FA1CCF6F8E00CECF20 /* EVLogViewController.h */,
+				DC79C7FB1CCF6F8E00CECF20 /* EVLogViewController.m */,
+			);
+			name = UserSettingViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D317AB718CF0780000A9386 /* EVCompany */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D317AEA18CF0780000A9386 /* Build configuration list for PBXNativeTarget "EVCompany" */;
+			buildPhases = (
+				4D317AB418CF0780000A9386 /* Sources */,
+				4D317AB518CF0780000A9386 /* Frameworks */,
+				4D317AB618CF0780000A9386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVCompany;
+			productName = EVCompany;
+			productReference = 4D317AB818CF0780000A9386 /* EVCompany.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D317AD718CF0780000A9386 /* EVCompanyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D317AED18CF0780000A9386 /* Build configuration list for PBXNativeTarget "EVCompanyTests" */;
+			buildPhases = (
+				4D317AD418CF0780000A9386 /* Sources */,
+				4D317AD518CF0780000A9386 /* Frameworks */,
+				4D317AD618CF0780000A9386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D317ADF18CF0780000A9386 /* PBXTargetDependency */,
+			);
+			name = EVCompanyTests;
+			productName = EVCompanyTests;
+			productReference = 4D317AD818CF0780000A9386 /* EVCompanyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D317AB018CF0780000A9386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Srishti;
+				TargetAttributes = {
+					4D317AB718CF0780000A9386 = {
+						DevelopmentTeam = 8LWLZ6U245;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					4D317AD718CF0780000A9386 = {
+						DevelopmentTeam = MN4J36EU94;
+						TestTargetID = 4D317AB718CF0780000A9386;
+					};
+				};
+			};
+			buildConfigurationList = 4D317AB318CF0780000A9386 /* Build configuration list for PBXProject "EVCompany" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D317AAF18CF0780000A9386;
+			productRefGroup = 4D317AB918CF0780000A9386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D317AB718CF0780000A9386 /* EVCompany */,
+				4D317AD718CF0780000A9386 /* EVCompanyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D317AB618CF0780000A9386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5246B019E5489400D93A93 /* zones.plist in Resources */,
+				253CAF311F9E8991007130FB /* EVMyChargerHeaderView.xib in Resources */,
+				253CAF3B1F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.xib in Resources */,
+				253CAF361F9E89B8007130FB /* EVMyChargerDelayTableViewCell.xib in Resources */,
+				2580037D1FC46A0A00A14739 /* LICENSE in Resources */,
+				4D32FDB218DBFB690070B99E /* Images.xcassets in Resources */,
+				4D317AC818CF0780000A9386 /* InfoPlist.strings in Resources */,
+				253CAF2F1F9E897E007130FB /* EVMyChargerFooterView.xib in Resources */,
+				25DF5C321FE84951002BCB20 /* EVSettingsSwitchTableViewCell.xib in Resources */,
+				25DF5C451FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.xib in Resources */,
+				4D091A1218E288DE001582EB /* Main.storyboard in Resources */,
+				25DF5C3B1FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.xib in Resources */,
+				25DF5C131FE810E1002BCB20 /* EVSettingsStandartTableViewCell.xib in Resources */,
+				25DF5C1B1FE81346002BCB20 /* Settings.storyboard in Resources */,
+				25DF5C571FE94E71002BCB20 /* EVSettingsButtonTableViewCell.xib in Resources */,
+				253CAF401F9E89E8007130FB /* EVMyChargerStatusTableViewCell.xib in Resources */,
+				25DF5C191FE81259002BCB20 /* EVSettingsDateTableViewCell.xib in Resources */,
+				25DF5C251FE81580002BCB20 /* EVSettingWithImageTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D317AD618CF0780000A9386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D317AE518CF0780000A9386 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D317AB418CF0780000A9386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9577D0ED1FE1B1F8005219E2 /* EVUserCell.h in Sources */,
+				9577D0EE1FE1B1F8005219E2 /* EVUserCell.m in Sources */,
+				9577D0EF1FE1B1F8005219E2 /* EVUserListViewController.h in Sources */,
+				9577D0F01FE1B1F8005219E2 /* EVUserListViewController.m in Sources */,
+				95FFF6CC1F9F6A2A00720E38 /* BabyCentralManager.m in Sources */,
+				95FFF6CE1F9F6A2A00720E38 /* BabyPeripheralManager.m in Sources */,
+				951C393A1FDFBC36002F44EC /* EVSettingsViewController.m in Sources */,
+				95FFF6CF1F9F6A2A00720E38 /* BabyRhythm.m in Sources */,
+				95FFF6D01F9F6A2A00720E38 /* BabySpeaker.m in Sources */,
+				254A41CB1FB5990000072AFC /* EVBLEDataReader.m in Sources */,
+				95FFF6D11F9F6A2A00720E38 /* BabyToy.m in Sources */,
+				4D091A3718E2E81A001582EB /* UIButton+WebCache.m in Sources */,
+				DC79C7FC1CCF6F8E00CECF20 /* EVLogViewController.m in Sources */,
+				DC9AEA531BD6624000EEE48C /* EVcurrentReservation.m in Sources */,
+				DC9A879D1BFE17C2004FA84C /* EVMargingTextfield.m in Sources */,
+				4D091A3418E2E81A001582EB /* SDWebImageDownloader.m in Sources */,
+				2546C9101FBA65B0001C4337 /* EVChargersManager.m in Sources */,
+				DCD478C61BBE6538002253D4 /* EVOCPPClientApi.m in Sources */,
+				4D4D9D4418D066DB00630AE9 /* GeoCoder.m in Sources */,
+				4D4DD73518F532470037BC63 /* EVStationListingViewController.m in Sources */,
+				DCC45C0F1C804E8E007601B4 /* EVOwnReservationTableViewController.m in Sources */,
+				4D091A3818E2E81A001582EB /* UIColor+ColorWithHex.m in Sources */,
+				4D4D9D3418D0511900630AE9 /* AFURLConnectionOperation.m in Sources */,
+				4DEEF4DB18EAACB400817146 /* ButtonCell.m in Sources */,
+				253CAF211F9E877C007130FB /* EVMyChargersListViewController.m in Sources */,
+				4D32FDAE18DBEEAF0070B99E /* EVSearchViewController.m in Sources */,
+				4DFDF9AB18E69FE3004A8687 /* EVAddStationViewController.m in Sources */,
+				4DB8CEED18E19DDE00BDF02B /* EVSignUpViewController.m in Sources */,
+				4D4D9D3E18D05E0C00630AE9 /* EVMapPin.m in Sources */,
+				4DD9CD0118EBD1E700B46D5E /* EVAddVehicleViewController.m in Sources */,
+				95FFF6D91F9FD64400720E38 /* BabyOptions.m in Sources */,
+				4D9E2BDD18D8653B00248F38 /* EVMenuViewController.m in Sources */,
+				4D4D9D3518D0511900630AE9 /* AFXMLRequestOperation.m in Sources */,
+				4D4F9E5118F7AE4B00E7F6D5 /* EVMapDetailsRouteViewController.m in Sources */,
+				4D091A3318E2E81A001582EB /* SDWebImageDecoder.m in Sources */,
+				4DFF9EE718E5762C00B19D39 /* EVFavoritesViewController.m in Sources */,
+				4D091A3218E2E81A001582EB /* SDImageCache.m in Sources */,
+				95FFF6DA1F9FD64400720E38 /* BabyBluetooth.m in Sources */,
+				DCB109B71B99C318001D7611 /* EVTripPlanTableViewController.m in Sources */,
+				25DF5C311FE84951002BCB20 /* EVSettingsSwitchTableViewCell.m in Sources */,
+				25DF5C201FE81457002BCB20 /* EVUsageReportViewController.m in Sources */,
+				DC130B931BEB89DE00E9C521 /* UserSetting.m in Sources */,
+				4DD9CD0418EBDFB600B46D5E /* EVSelectCarModelViewController.m in Sources */,
+				4D4D9D3118D0511900630AE9 /* AFJSONRequestOperation.m in Sources */,
+				4D4D9D2F18D0511900630AE9 /* AFHTTPRequestOperation.m in Sources */,
+				4D091A3518E2E81A001582EB /* SDWebImageManager.m in Sources */,
+				4D317AF518CF2396000A9386 /* EVMapViewController.m in Sources */,
+				4D0BEE3718E013910043FC1C /* UIImage+ImageWithUIView.m in Sources */,
+				4D83F39F18D1B6270018CCD9 /* EVRouteViewController.m in Sources */,
+				4D317AFC18CF3242000A9386 /* EVWebService.m in Sources */,
+				256D0BFF1FE9A7F100EB6BAD /* EVSystemInformationViewController.m in Sources */,
+				4DFF9EEB18E5A1C800B19D39 /* EVLikeViewController.m in Sources */,
+				95DC67AB1FCC473300B001B2 /* NSString+AES128Encryption.m in Sources */,
+				79176F7A1DED1F8B004C6026 /* EVModal.m in Sources */,
+				95709CA61F91505900689CBB /* EVBluetoothManager.m in Sources */,
+				4D317ACA18CF0780000A9386 /* main.m in Sources */,
+				DC99DB321C101787000CDF63 /* EVDirectionService.m in Sources */,
+				95DC67AA1FCC46DB00B001B2 /* NSData+AES128Encryption.m in Sources */,
+				2546C90B1FBA18A5001C4337 /* EVCharger.m in Sources */,
+				4D4F9E5418F7AEBB00E7F6D5 /* AddressAnnotation.m in Sources */,
+				4D091A3118E2E81A001582EB /* MKAnnotationView+WebCache.m in Sources */,
+				DC9D39351BB2A316001599B1 /* EVReservationViewController.m in Sources */,
+				254A41C21FB4A5C400072AFC /* NSMutableData+ReadWrite.m in Sources */,
+				4D9A74BF18D1A5D70036B134 /* Place.m in Sources */,
+				4D317AD118CF0780000A9386 /* EVCompany.xcdatamodeld in Sources */,
+				254A41D21FB59FC000072AFC /* EVBLEConstants.m in Sources */,
+				4D4D9D1918D02C2300630AE9 /* NSMutableData+PostDataAdditions.m in Sources */,
+				DCC45C0C1C804C65007601B4 /* EVAllReservationTableViewController.m in Sources */,
+				4D4D9D3018D0511900630AE9 /* AFImageRequestOperation.m in Sources */,
+				25DF5C511FE940C1002BCB20 /* EVNotificationsViewController.m in Sources */,
+				95709CA01F8F6DA900689CBB /* EVConnectWifiViewController.m in Sources */,
+				2513639E1F9F91F200979948 /* EVMyChargerProgressView.m in Sources */,
+				253CAF3A1F9E89D7007130FB /* EVMyChargerScheduleTableViewCell.m in Sources */,
+				4DF38BE918D970260005D6E9 /* EVSlidingViewController.m in Sources */,
+				253CAF2D1F9E896A007130FB /* EVMyChargerFooterView.m in Sources */,
+				4D9A74BE18D1A5D70036B134 /* MapView.m in Sources */,
+				4D4DD73218F516620037BC63 /* KGModal.m in Sources */,
+				4DB8CEE318E178B900BDF02B /* EVFilterViewController.m in Sources */,
+				DC99DB351C1024A1000CDF63 /* EVDirectionClient.m in Sources */,
+				4DD9CD0718EBF0CD00B46D5E /* EVTextField.m in Sources */,
+				4D091A1618E2BE24001582EB /* EVProfileViewController.m in Sources */,
+				4D4D9D4818D0736000630AE9 /* EVMapTableViewCell.m in Sources */,
+				4DEEF4D518EAAC7100817146 /* EVAddStationTableViewController.m in Sources */,
+				253CAF351F9E89B8007130FB /* EVMyChargerDelayTableViewCell.m in Sources */,
+				258003821FC4B96B00A14739 /* EVBLEDevice.m in Sources */,
+				DC9AEA501BD610D500EEE48C /* EVListReservationViewController.m in Sources */,
+				25DF5C181FE81259002BCB20 /* EVSettingsDateTableViewCell.m in Sources */,
+				4D4D9D3218D0511900630AE9 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				95709C9A1F8F5FC200689CBB /* ConstantStrings.m in Sources */,
+				4D4D9D4518D066DB00630AE9 /* NSString+NSStringAdditions.m in Sources */,
+				95709CA21F8F6DC700689CBB /* EVConnectBluetoothViewController.m in Sources */,
+				4D091A3C18E2E860001582EB /* MBProgressHUD.m in Sources */,
+				4D091A3618E2E81A001582EB /* SDWebImagePrefetcher.m in Sources */,
+				4DEEF4D118EA9FC800817146 /* Filter.m in Sources */,
+				DC57FB291BC249FC00F781B3 /* EVOCPPWebService.m in Sources */,
+				25DF5C3F1FE86881002BCB20 /* EVPowerSettingsViewController.m in Sources */,
+				4D9A74C118D1A5D70036B134 /* RegexKitLite.m in Sources */,
+				95709C931F8EA81100689CBB /* EVMyChargerViewController.m in Sources */,
+				9548EA231FC8027C00A6DBDE /* EVAes128EncryptionManager.m in Sources */,
+				95709C981F8F5A9200689CBB /* EVViewController.m in Sources */,
+				DCB109BB1B9D835F001D7611 /* EVUserSettingTableViewController.m in Sources */,
+				4D4F9E5718F7AEDB00E7F6D5 /* DirectionParser.m in Sources */,
+				4DEEF4DA18EAACB400817146 /* TextFieldCell.m in Sources */,
+				4D9A74C018D1A5D70036B134 /* PlaceMark.m in Sources */,
+				4D091A3918E2E81A001582EB /* UIImageView+WebCache.m in Sources */,
+				DC43E3AA1C7F332300D0FEED /* EVReservationListViewController.m in Sources */,
+				25DF5C2D1FE846DE002BCB20 /* EVCustomChargingScheduleViewController.m in Sources */,
+				9510E1441FB5CFFF0012D151 /* EVChargerCell.m in Sources */,
+				25DF5C491FE883B6002BCB20 /* EVScheduleEditorViewController.m in Sources */,
+				4D4D9D3618D0511900630AE9 /* UIImageView+AFNetworking.m in Sources */,
+				DC8F7A8E1CD38F6D00585636 /* EVTripToStationRouteViewController.m in Sources */,
+				DCBF157A1CAA46100043B76A /* EVTripPlanRouteViewController.m in Sources */,
+				4DF38BEF18D97E480005D6E9 /* EVDetailCell.m in Sources */,
+				25DF5C561FE94E71002BCB20 /* EVSettingsButtonTableViewCell.m in Sources */,
+				4D317AF918CF25F4000A9386 /* EVStations.m in Sources */,
+				4D0BEE3618E013910043FC1C /* ECSlidingViewController.m in Sources */,
+				25DF5C4D1FE9367F002BCB20 /* EVEnergyProviderSetupViewController.m in Sources */,
+				DCA9DAF21C08678E00C728D7 /* EVOCPPDetailsViewController.m in Sources */,
+				253CAF2A1F9E8955007130FB /* EVMyChargerHeaderView.m in Sources */,
+				2546C9141FBA7E5B001C4337 /* EVSchedule.m in Sources */,
+				95FFF6D81F9FD64400720E38 /* BabyCallback.m in Sources */,
+				4D85FB9618EEC6E400E7B362 /* TMDropDown.m in Sources */,
+				25DF5C121FE810E1002BCB20 /* EVSettingsStandartTableViewCell.m in Sources */,
+				4D4D9D3918D0518300630AE9 /* EVClientApi.m in Sources */,
+				25DF5C3A1FE84BFE002BCB20 /* EVSettingsTextWithImageTableViewCell.m in Sources */,
+				253CAF3F1F9E89E8007130FB /* EVMyChargerStatusTableViewCell.m in Sources */,
+				4D6A070318F01039003AFA75 /* EVImageCell.m in Sources */,
+				9510E1471FB5D2350012D151 /* EVBlufiManager.m in Sources */,
+				25DF5C441FE86ABD002BCB20 /* EVSettingsChecboxTableViewCell.m in Sources */,
+				4DF38BEC18D977090005D6E9 /* EVDetailsViewController.m in Sources */,
+				4D317ACE18CF0780000A9386 /* EVAppDelegate.m in Sources */,
+				4D4D9D2E18D0511900630AE9 /* AFHTTPClient.m in Sources */,
+				4D4D9D3318D0511900630AE9 /* AFPropertyListRequestOperation.m in Sources */,
+				4DB8CEE818E1880C00BDF02B /* EVUser.m in Sources */,
+				4D32FDB518DC2D4D0070B99E /* EVSearchCell.m in Sources */,
+				25DF5C241FE81580002BCB20 /* EVSettingWithImageTableViewCell.m in Sources */,
+				954153791F97C5E800F20EDA /* EVAddChargerViewController.m in Sources */,
+				4D091A1018E2881C001582EB /* EVLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D317AD418CF0780000A9386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D317AE718CF0780000A9386 /* EVCompanyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D317ADF18CF0780000A9386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D317AB718CF0780000A9386 /* EVCompany */;
+			targetProxy = 4D317ADE18CF0780000A9386 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D317AC618CF0780000A9386 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D317AC718CF0780000A9386 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D317AE318CF0780000A9386 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D317AE418CF0780000A9386 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D317AE818CF0780000A9386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vipul Gore (J979DKFBJ5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vipul Gore (J979DKFBJ5)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D317AE918CF0780000A9386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vipul Gore (J979DKFBJ5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vipul Gore (J979DKFBJ5)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D317AEB18CF0780000A9386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EVCompany/EVCompany-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/EVCompany/openssl/openssl/include/";
+				INFOPLIST_FILE = "EVCompany/EVCompany-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/EVCompany/openssl",
+					"$(PROJECT_DIR)/EVCompany/openssl/openssl",
+					"$(PROJECT_DIR)/EVCompany/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-licucore",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RCS.RCSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D317AEC18CF0780000A9386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EVCompany/EVCompany-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/EVCompany/openssl/openssl/include/";
+				INFOPLIST_FILE = "EVCompany/EVCompany-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/EVCompany/openssl",
+					"$(PROJECT_DIR)/EVCompany/openssl/openssl",
+					"$(PROJECT_DIR)/EVCompany/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-licucore",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RCS.RCSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D317AEE18CF0780000A9386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EVCompany.app/EVCompany";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EVCompany/EVCompany-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EVCompanyTests/EVCompanyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D317AEF18CF0780000A9386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EVCompany.app/EVCompany";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EVCompany/EVCompany-Prefix.pch";
+				INFOPLIST_FILE = "EVCompanyTests/EVCompanyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D317AB318CF0780000A9386 /* Build configuration list for PBXProject "EVCompany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D317AE818CF0780000A9386 /* Debug */,
+				4D317AE918CF0780000A9386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D317AEA18CF0780000A9386 /* Build configuration list for PBXNativeTarget "EVCompany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D317AEB18CF0780000A9386 /* Debug */,
+				4D317AEC18CF0780000A9386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D317AED18CF0780000A9386 /* Build configuration list for PBXNativeTarget "EVCompanyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D317AEE18CF0780000A9386 /* Debug */,
+				4D317AEF18CF0780000A9386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D317ACF18CF0780000A9386 /* EVCompany.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D317AD018CF0780000A9386 /* EVCompany.xcdatamodel */,
+			);
+			currentVersion = 4D317AD018CF0780000A9386 /* EVCompany.xcdatamodel */;
+			path = EVCompany.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D317AB018CF0780000A9386 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BAAE7762-6506-49F3-B93D-C8EE4E95E091</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EVCompany</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>648EFB49114728B89E313DCC769C701611417382</key>
+		<string>http://projects.grid-scape.com:8081/RCS/rcs_iosapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EVCompany/EVCompany.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>648EFB49114728B89E313DCC769C701611417382</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://projects.grid-scape.com:8081/RCS/rcs_iosapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>648EFB49114728B89E313DCC769C701611417382</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>648EFB49114728B89E313DCC769C701611417382</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rcs_iosapp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
